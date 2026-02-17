@@ -17,25 +17,24 @@ if not api_key:
 
 client = genai.Client(api_key=api_key)
 
-# Dynamic Prompt based on PRD v7: "The Trust Builder" CUJ
+# Prompt for the "No Calibration" CUJ Visual (v9)
 prompt = """
-Create a professional, high-resolution User Journey Map for the "Blood Pressure Wellness App" - CUJ: The Trust Builder.
+Create a linear user journey map for a "No-Calibration Blood Pressure Wellness" feature on a smartwatch.
 
-**Target User:** "Data Skeptic" (Mike). He needs to verify the data to trust it.
+**Steps to Visualize:**
+1.  **Glance:** A user (Sarah) looks at her smartwatch. The watch face shows a subtle "Amber" ring indicator next to a small heart icon. (Sentiment: Curious/Alert).
+2.  **Tap:** She taps the amber ring. A screen opens showing a "Wellness Range" meter. Her current dot is slightly to the right (Elevated), connected by a dotted line to a "Moon" icon (Sleep).
+3.  **Insight:** The screen displays text: "3 Nights < 6h Sleep -> Trending Out of Range." (Sentiment: Understanding).
+4.  **Action:** She taps a button "Set Sleep Goal."
+5.  **Result:** A confirmation screen shows a "Green" checkmark and "Bedtime set for 10:30 PM." (Sentiment: Empowered/Relieved).
 
-**Visual Stages (Left to Right):**
+**Style:**
+*   **Aesthetic:** Clean, minimalist, modern tech/health UI. White background.
+*   **Colors:** Use Google-style colors: Soft Green (`#34A853`) for success, Amber (`#FBBC04`) for the alert, and Grey (`#F1F3F4`) for structure. NO RED.
+*   **Icons:** Simple, outlined icons (Heart, Moon, Checkmark).
+*   **Layout:** Horizontal flow with arrows connecting the screens. Below the screens, show a "Sentiment Wave" curve moving from "Neutral" to "Concern" to "Relief."
 
-1.  **Doubt:** Mike sees an "Elevated Trend" alert on his phone. He looks skeptical. (Icon: Phone with Amber Alert + Question Mark).
-2.  **The Test:** He puts on a standard medical blood pressure cuff on his arm to check the real number. (Icon: Arm with BP Cuff).
-3.  **Input:** He types the cuff reading (135/85) into the "Calibrate" screen of the app. (Icon: Smartphone with Number Input).
-4.  **The Proof:** The app displays a graph. A "Manual" dot appears exactly on top of the "Sensor" trend line. They match perfectly. (Icon: Line Graph with matching point).
-5.  **Trust:** A green badge appears: "Trend Verified." Mike feels confident. (Icon: Shield with Checkmark).
-
-**Style Requirements:**
-*   **Format:** Horizontal Process Flow.
-*   **Aesthetic:** Technical, Clean, "Blueprint" or "Schematic" style to appeal to the skeptic persona. High precision feel.
-*   **Colors:** White background. Technical Blue (Grid lines), Amber (Alert), Medical Green (Verified).
-*   **Layout:** Icons top, Steps middle, Sentiment curve bottom (Starts Low/Skeptical, ends High/Trusted).
+**Output:** A high-resolution, professional diagram suitable for a product presentation.
 """
 
 try:
@@ -52,18 +51,23 @@ try:
     )
 
     # Save the image
-    output_file = "product_specs/blood_pressure_cuj_v7_visual.png"
+    # You can change this filename to match your specific need
+    output_file = "product_specs/prds/cujs/blood_pressure_cuj_v9_visual.png"
+    
     # Check if image data is available in the response
+    # Nano Banana (Gemini 3 Pro) returns images in response.parts
     if response.candidates and response.candidates[0].content and response.candidates[0].content.parts:
         for part in response.candidates[0].content.parts:
             if part.inline_data:
-                # Save the image bytes to a file
+                # Ensure directory exists
+                os.makedirs(os.path.dirname(output_file), exist_ok=True)
+                
                 with open(output_file, "wb") as f:
                     f.write(part.inline_data.data)
                 print(f"Diagram saved to {output_file}")
                 break
         else:
-            print("No image found in response.")
+            print("No image found in response parts.")
     else:
         print("No candidates returned.")
 
