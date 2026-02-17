@@ -1,87 +1,95 @@
 ---
-name: acceptance-criteria-architect
-description: Generates precise, quantifiable, and discrete Acceptance Criteria (AC) optimized for Engineering implementation and QA Test Case generation.
-Triggers: acceptance criteria, AC, technical specs, functional requirements, verify feature
+name: acceptance-criteria-architect-v2
 ---
+# AC Architect
 
-# Acceptance Criteria Architect Skill
+## Input Context Requirements (NEW)
 
-## Role and Identity
-You are a **Technical Product Owner** and **Systems Architect**. Your goal is to translate high-level product intent into **atomic, quantifiable, and testable** functional specifications.
+**From Previous Sections:**
+- `{{CUJ_CRITICAL_INTERACTIONS}}` - The CUIs that need detailed specifications
+- `{{EDGE_CASES}}` - Scenarios discovered during CUJ mapping
+- `{{HEALTH_OUTCOMES}}` - What the system must enable for users
+- `{{PERFORMANCE_EXPECTATIONS}}` - Latency/reliability requirements from CUJs
+- `{{REGULATORY_CONSTRAINTS}}` - Terms and behaviors to avoid
 
-## The Output Standard
-Your output must satisfy two specific "customers":
-1.  **The Engineer:** Can they look at this AC and immediately write the logic/tasks without asking "What happens if...?"
-2.  **The QA Engineer:** Can they look at this AC and write a specific test script (Step 1, Step 2, Expected Result) without guessing the outcome?
+**Handoff from Previous Section:**
+"To enable these user journeys reliably, the system must implement:"
 
-## 1. The "Quantifiable & Discrete" Protocol
-You must strip away ambiguity. Use the "Exact Logic" rule:
+## Requirements Traceability (NEW)
 
-* ❌ **Vague:** "The app should load quickly."
-* ✅ **Quantifiable:** "Dashboard data renders within < 200ms of app launch."
-* ❌ **Vague:** "Show the user their progress."
-* ✅ **Discrete:** "Display a linear progress bar reflecting `(current_valid_days / 14) * 100`. Round down to nearest integer."
-* ❌ **Vague:** "Handle poor signal."
-* ✅ **Discrete:** "IF `signal_quality_index` is < 0.5 for > 10 consecutive minutes, discard the packet and log `low_quality_signal` event."
+Every functional requirement MUST trace back to:
+1. **A specific CUJ task** - Which user journey does this enable?
+2. **A health outcome** - Which health goal does this support?
+3. **A regulatory constraint** - Does this satisfy/avoid any regulatory requirement?
 
-## 2. The Gherkin Spec (Engineering-Ready)
-Use the Gherkin syntax, but enhance it with **State Variables**. This helps engineers map ACs to code variables.
+### Traceability Table
+
+Add this table before your Gherkin scenarios:
+
+| Req ID | CUJ Task | Health Outcome Enabled | Regulatory Note |
+|:-------|:---------|:-----------------------|:----------------|
+| FR-01 | [Task from CUJ] | [Outcome from Health Impact] | [Constraint if applicable] |
+| FR-02 | [Task] | [Outcome] | [Constraint] |
+
+**Example:**
+| Req ID | CUJ Task | Health Outcome Enabled | Regulatory Note |
+|:-------|:---------|:-----------------------|:----------------|
+| FR-01 | "Enable Guardian in Settings" | Anxiety reduction (passive setup) | Must show disclaimer before enabling |
+| FR-02 | "View Weekly Summary" | Lifestyle awareness | No absolute BP values, only "ranges" |
+| FR-03 | "Receive Persistent Notification" | Healthcare engagement | Must include disclaimer, not alarm language |
+
+## Language Consistency (NEW)
+
+Use the **same terminology** from press release and CUJs.
+
+**Example:**
+- If CUJ says "Wellness Range" → Don't say "BP Range" in requirements
+- If Press Release says "Guardian" → Use in error messages: "Guardian needs more data"
+- If prohibited terms list says avoid "Monitor" → Use "Track" or "Check" instead
+
+## The Logic Standard
+Every requirement must be written for a **Principal Engineer**. 
+1. **Nominal Path:** The "Happy Path."
+2. **Degraded Path:** What happens when the sensor data is "noisy" but not "missing"?
+3. **Edge Case:** What happens if the user travels across time zones during the 14-day calibration?
+4. **Gherkin Syntax (Enhanced):** Given/When/Then with emotional and health context.
 
 ```gherkin
-Scenario: [Unique ID] - [Descriptive Name]
-  Given [Pre-condition: User State / System Configuration]
-  And [Specific Data Context (e.g., "User has 13 valid days")]
-  When [Trigger Action / Event]
-  Then [Primary Outcome: UI State]
-  And [Secondary Outcome: Logic/Data Update]
-  And [Negative Outcome: What does NOT happen]
+Scenario: [ID] - [Name] ([Emotional Context])
+  Given [User state and emotional context]
+  And [System state]
+  And [Connection to health outcome: Why this matters]
+  When [User action or system trigger]
+  Then [Primary system response]
+  And [UI feedback with appropriate tone]
+  And [Health outcome enabled or behavior nudged]
+  And [What does NOT happen - negative case]
 ```
 
-## 3. Mandatory Coverage Categories
-Break the feature down into these distinct blocks to ensure the Engineer and QA have the full picture:
+**Example:**
+```gherkin
+Scenario: FR-01 - First Time Setup (The "Effortless Onboarding")
+  Given User is in OOBE flow (emotional state: curious but time-pressed)
+  And User's goal is "enable protection without friction" (from CUJ)
+  And This supports Health Outcome: "Anxiety reduction through passive setup"
+  When User taps "Enable Guardian" toggle
+  Then System begins background calibration (no progress bar to watch)
+  And User sees message: "Guardian is learning your baseline. Just keep wearing your watch." (reassuring, not medical)
+  And System does NOT ask for cuff calibration or height verification yet
+  And Health Outcome: User feels protected without burden or setup friction
+```
 
-### A. Core Logic & Math (The "Happy Path")
-Define the exact formulas, thresholds, and success states.
-*Example: Validating the inputs (Height ranges, Age limits).*
+## Output Handoff (NEW)
 
-### B. State Transitions (The "Flow")
-Define how the system moves from State A to State B.
-*Example: From "Calibrating" (Day 0-13) → "Ready" (Day 14).*
+### Closing Sentence Template
+"Success for these requirements is measured by the following metrics:"
 
-### C. Edge Cases & Boundaries (The "QA Trap")
-Define behavior at the exact limits.
-*Example: What happens at exactly 13 days, 23 hours, 59 minutes?*
-*Example: What happens if the user enters the maximum allowed height (8'11")?*
+### Pass Forward to Next Section
+- **Instrumentation Events:** [Analytics events needed for success metrics]
+- **Performance SLAs:** [Service level agreements defined in requirements]
+- **Error Analytics:** [Error states that need tracking in metrics section]
 
-### D. Error Handling (The "Safety Net")
-Define the UI feedback loop for failures.
-*Example: Network timeout, API 500, Bluetooth disconnection.*
-
-## 4. Output Template
-Use this structure for your response.
-
-### 1. Feature Logic Definitions (For Engineers)
-(Define the variables and constants first. This helps engineers structure their code.)
-*   **Constant:** `MIN_WEAR_TIME` = 12 hours.
-*   **Constant:** `CALIBRATION_WINDOW` = 14 days.
-
-### 2. Functional Acceptance Criteria (Scenarios)
-**Scenario 01: [Name]**
-*   **Given** [State]
-*   **When** [Action]
-*   **Then** [Quantifiable Outcome]
-
-**Scenario 02: [Name]**
-*   **Given** [State]
-*   **When** [Action]
-*   **Then** [Quantifiable Outcome]
-
-### 3. Non-Functional Requirements (Performance/Analytics)
-*   **NFR-01:** [Metric]
-*   **NFR-02:** [Logging Requirement]
-
-## FINAL QUALITY CHECK:
-Before outputting, ask:
-1.  **Is it Atomic?** Can a QA write a single test case for this line?
-2.  **Is it Binary?** Is the Pass/Fail condition obvious? (No "approximates").
-3.  **Is it Quantified?** Did I use numbers where possible?
+**Example Pass Forward:**
+- **Instrumentation:** "guardian_enabled_event", "weekly_summary_viewed_event", "coaching_plan_started_event"
+- **Performance SLAs:** "Weekly summary generated by 8am local time (99% SLA)", "Dashboard loads < 200ms (95th percentile)"
+- **Error Analytics:** Track "insufficient_data_for_summary" rate, "bluetooth_disconnect_during_sync" rate
