@@ -8,7 +8,7 @@
 
 ## 1. TL;DR
 
-**Google Personal Health Agent** transforms your Pixel Watch into an intelligent cardiovascular wellness coach that not only makes the invisible visible—revealing blood pressure patterns you cannot feel—but actively guides you to reverse elevated ranges through personalized lifestyle interventions. For the 20 million young adults (18-44) walking around with undetected elevated blood pressure, thinking they're invincible, this is the wake-up call that comes with a roadmap: see the pattern, understand the cause, take action, and watch your range return to baseline—all without a doctor's appointment, a prescription, or the anxiety of medicalization.
+**Google Personal Health Agent** transforms your Pixel Watch into an intelligent cardiovascular wellness coach that not only makes the invisible visible—revealing blood pressure patterns you cannot feel—but actively guides you with personalized lifestyle interventions that, as part of a healthy lifestyle, may help bring elevated ranges back toward baseline. For the 20 million young adults (18-44) walking around with undetected elevated blood pressure, thinking they're invincible, this is the wake-up call that comes with a roadmap: see the pattern, understand the cause, take action, and watch your range return to baseline—all without a doctor's appointment, a prescription, or the anxiety of medicalization.
 
 ---
 
@@ -18,9 +18,9 @@
 
 Google Health exists to democratize preventive healthcare by making advanced health monitoring accessible, affordable, and anxiety-free for everyone. **Personal Health Agent** advances this mission by transforming the relationship between users and their cardiovascular wellness—from passive awareness to **active reversal**.
 
-Here's the breakthrough: **Elevated blood pressure is reversible through lifestyle change.** Research shows that improving sleep quality (7+ hours), reducing sodium intake, increasing physical activity, and managing stress can bring blood pressure back to healthy ranges in 70%+ of cases—without medication. But most people never get the chance to try because they don't know they're elevated until it's a medical crisis.
+Here's the breakthrough: **Elevated blood pressure may be improved through lifestyle change.** Research shows that improving sleep quality (7+ hours), reducing sodium intake, increasing physical activity, and managing stress, as part of a healthy lifestyle, may help bring blood pressure back to healthier ranges in many cases. But most people never get the chance to try because they don't know they're elevated until it's a medical crisis.
 
-We're changing that. For the first time, a **Personal Health Agent**—not a doctor, not a device, but an intelligent companion—makes the invisible visible, then guides you toward the specific lifestyle changes that research shows can reverse your elevated range. This is not monitoring. This is **active intervention** through personalized coaching, delivered with the gentleness of a friend and the rigor of clinical science.
+We're changing that. For the first time, a **Personal Health Agent**—not a doctor, not a device, but an intelligent companion—makes the invisible visible, then guides you toward the specific lifestyle changes that, as part of a healthy lifestyle, may help support improvements in your elevated range. This is not monitoring. This is **active intervention** through personalized coaching, delivered with the gentleness of a friend and the rigor of clinical science.
 
 **The Young Adult Crisis:** This matters most for the 20 million young adults (18-44) with undetected elevated blood pressure. They're not "old enough" to worry. They feel fine. They're building careers, raising families, living full lives—unaware that silent cardiovascular stress is accumulating. By the time symptoms appear (chest pain, stroke), decades of damage have occurred. We're reaching them now, in their 30s and 40s, when lifestyle interventions have maximum impact and decades of health to protect.
 
@@ -28,7 +28,7 @@ We're changing that. For the first time, a **Personal Health Agent**—not a doc
 
 We are defining a new category: **Personal Health Agent for Cardiovascular Wellness**. This is not "blood pressure monitoring" (medical device positioning). This is not "cuff replacement" (competing with Omron). This is not even "passive tracking" (wearables status quo).
 
-This is the first **agentic system** for cardiovascular wellness—an intelligent companion that detects invisible patterns, predicts lifestyle impact, and actively guides users to reverse elevated ranges through personalized interventions. Competitors give you numbers. We give you a roadmap to change them.
+This is the first **agentic system** for cardiovascular wellness—an intelligent companion that detects invisible patterns, predicts lifestyle impact, and actively guides users with personalized interventions that, as part of a healthy lifestyle, may help support improvements in elevated ranges. Competitors give you numbers. We give you a roadmap to change them.
 
 **Competitive Moat:**
 - **Detect + Guide + Reverse:** Only system that closes the loop from detection → lifestyle guidance → range normalization (vs. competitors' "here's your number, good luck")
@@ -62,7 +62,7 @@ The feature provides personalized coaching and guidance on lifestyle choices whi
 The feature provides notifications when values fall outside of general wellness ranges to prompt users to reflect on their habits, engage with personalized lifestyle coaching, or consider evaluation by a healthcare professional if patterns persist. It is **not intended to diagnose, treat, cure, or prevent any disease or medical condition**, including hypertension.
 
 **Clinical Context:**
-Research demonstrates that lifestyle interventions (improved sleep, reduced sodium, increased activity, stress management) can support cardiovascular wellness in individuals with elevated blood pressure ranges. This feature educates users on these well-established associations and helps them implement such choices as part of a healthy lifestyle.
+Research demonstrates that lifestyle interventions (improved sleep, reduced sodium, increased activity, stress management), as part of a healthy lifestyle, may help support cardiovascular wellness in individuals with elevated blood pressure ranges. This feature educates users on these well-established associations and helps them implement such choices as part of a healthy lifestyle.
 
 **Regulatory Classification:** General Wellness (FDA Enforcement Discretion - Non-Invasive, Low Risk, Validated Output)
 
@@ -80,9 +80,9 @@ This feature helps you understand the relationship between your lifestyle choice
 
 **FOR IMMEDIATE RELEASE**
 
-**Google Announces "Personal Health Agent": Making the Invisible Visible, the Reversible Possible**
+**Google Announces "Personal Health Agent": Making the Invisible Visible, Positive Change Possible**
 
-**MOUNTAIN VIEW, CA** — Today, Google introduces **Personal Health Agent**, a revolutionary AI-powered wellness companion for Pixel Watch and Radiance that not only makes blood pressure patterns you cannot feel visible through continuous, passive intelligence—but actively guides you to reverse elevated ranges through personalized lifestyle interventions, targeting the 20 million young adults who have no idea they're at risk.
+**MOUNTAIN VIEW, CA** — Today, Google introduces **Personal Health Agent**, a revolutionary AI-powered wellness companion for Pixel Watch and Radiance that not only makes blood pressure patterns you cannot feel visible through continuous, passive intelligence—but actively guides you with personalized lifestyle interventions that, as part of a healthy lifestyle, may help bring elevated ranges back toward baseline, targeting the 20 million young adults who have no idea they're at risk.
 
 ### The Problem: The Invisible Threat Robbing Young Adults of Decades
 
@@ -90,7 +90,7 @@ High blood pressure is called "The Silent Killer" for a reason: you cannot feel 
 
 This invisibility has devastating consequences. **60 million Americans** have uncontrolled hypertension and don't know it. Among young adults (18-44), the awareness gap is catastrophic: **20 million people**—in their 30s and 40s, building careers, raising families, at the peak of their lives—are walking around with dangerous cardiovascular stress, completely unaware. They feel fine. They think they're invincible. They have no reason to check.
 
-But here's what's happening silently: their arteries are stiffening. Their hearts are working overtime. Micro-damage is accumulating. By the time symptoms appear—chest pain, stroke, heart attack—decades of health have been stolen. And the cruelest part? **It didn't have to happen.** Elevated blood pressure in young adults is overwhelmingly lifestyle-driven and reversible through sleep improvement, stress management, and activity changes. But they never get the chance to reverse it because they don't know it's there.
+But here's what's happening silently: their arteries are stiffening. Their hearts are working overtime. Micro-damage is accumulating. By the time symptoms appear—chest pain, stroke, heart attack—decades of health have been stolen. And the cruelest part? **It didn't have to happen.** Elevated blood pressure in young adults is overwhelmingly lifestyle-driven, and research shows that sleep improvement, stress management, and activity changes, as part of a healthy lifestyle, may help bring ranges back toward baseline. But they never get the chance to try these lifestyle interventions because they don't know they're elevated.
 
 The tragedy is not that blood pressure measurement is impossible. It's that the current system requires active effort (cuffs, calibration, doctor visits, medical anxiety), so young, healthy-feeling people don't check. And what is invisible remains invisible—until it's too late.
 
@@ -100,11 +100,11 @@ The tragedy is not that blood pressure measurement is impossible. It's that the 
 
 Using advanced photoplethysmography (PPG) sensors and Google's novel **Waveform Foundation Model**—a deep learning system trained on the "song" of millions of heartbeats—your agent learns the unique rhythm of your blood flow. It watches in the background, day and night, building a longitudinal picture of your cardiovascular wellness range across weeks and months.
 
-But here's the breakthrough: **it doesn't stop at detection.** When your agent notices your range has been elevated for 4 weeks, it doesn't just alarm you. It becomes your coach. It analyzes your sleep patterns, stress windows, activity levels, and recovery data to identify the specific lifestyle factors driving your elevated range. Then it guides you—with empathy, with personalization, with evidence—toward the changes most likely to bring your range back to baseline.
+But here's the breakthrough: **it doesn't stop at detection.** When your agent notices your range has been elevated for 4 weeks, it doesn't just alarm you. It becomes your coach. It analyzes your sleep patterns, stress windows, activity levels, and recovery data to identify the specific lifestyle factors correlating with your elevated range. Then it guides you—with empathy, with personalization, with evidence—toward changes that, as part of a healthy lifestyle, may help bring your range back toward baseline.
 
-*"Your range has been elevated for 4 weeks. I've noticed your sleep dropped from 7.5 hours to 6.2 hours during this period. Research shows sleep improvement can normalize cardiovascular wellness range in 70% of cases. Let's try a 14-day Sleep Coaching plan tailored to your schedule. Ready?"*
+*"Your range has been elevated for 4 weeks. I've noticed your sleep dropped from 7.5 hours to 6.2 hours during this period. Research shows that improving sleep, as part of a healthy lifestyle, may help bring cardiovascular wellness range back toward baseline. Let's try a 14-day Sleep Coaching plan tailored to your schedule. Ready?"*
 
-This is the difference between a sensor and an agent. Between awareness and action. Between knowing you're at risk and actually reversing it.
+This is the difference between a sensor and an agent. Between awareness and action. Between knowing you're at risk and taking steps that may help improve it.
 
 **The 7-Star Experience: Invisible Protection, Visible Peace of Mind**
 
@@ -112,11 +112,11 @@ This is the difference between a sensor and an agent. Between awareness and acti
 
 - **The Reassuring Glance:** Every Monday morning, you wake up to a "Weekly Range" card. It doesn't show you numbers—just a simple, calming visualization: "Your range was stable last week." Below it, the system highlights what likely contributed: "Your improved sleep (avg 7.5 hrs, up from 6.8) may have helped maintain your wellness range."
 
-- **The Personal Coach:** If life gets hectic and your range drifts persistently for a month, your agent doesn't alarm you. It doesn't use red colors or clinical terms. Instead, it becomes your coach, offering a personalized path forward: "I've noticed your range has been elevated for 4 weeks. This correlates with your sleep dropping to 6.2 hrs/night (down from 7.5 hrs). Research shows improving sleep brings cardiovascular wellness range back to baseline in 70% of cases within 2-4 weeks. Let's try a personalized 14-day Sleep Coaching plan. I'll guide you step by step."
+- **The Personal Coach:** If life gets hectic and your range drifts persistently for a month, your agent doesn't alarm you. It doesn't use red colors or clinical terms. Instead, it becomes your coach, offering a personalized path forward: "I've noticed your range has been elevated for 4 weeks. This correlates with your sleep dropping to 6.2 hrs/night (down from 7.5 hrs). Research shows that improving sleep, as part of a healthy lifestyle, may help bring cardiovascular wellness range back toward baseline. Let's try a personalized 14-day Sleep Coaching plan. I'll guide you step by step."
 
-- **The Reversal Journey:** You accept the coaching plan. Over 14 days, your agent sends gentle daily prompts: "Try a 10-minute wind-down routine tonight," "Your bedtime consistency improved 40% this week—great work." After 2 weeks, you see the result: "Your range returned to stable. Your sleep averaged 7.4 hrs during coaching (up from 6.2 hrs). This is what making the invisible visible—and the reversible possible—looks like."
+- **The Improvement Journey:** You accept the coaching plan. Over 14 days, your agent sends gentle daily prompts: "Try a 10-minute wind-down routine tonight," "Your bedtime consistency improved 40% this week—great work." After 2 weeks, you see the result: "Your range returned to stable. Your sleep averaged 7.4 hrs during coaching (up from 6.2 hrs). This is what making the invisible visible—and supporting positive change—looks like."
 
-This is not a medical device barking orders. This is not a passive sensor logging data. This is a **Personal Health Agent**—making what was invisible visible, what was ignored actionable, and what felt permanent reversible.
+This is not a medical device barking orders. This is not a passive sensor logging data. This is a **Personal Health Agent**—making what was invisible visible, what was ignored actionable, and what felt fixed potentially improvable.
 
 ### Why This Matters: The World Model Difference
 
@@ -129,10 +129,10 @@ This is the difference between a sensor and a coach. Between reactive monitoring
 ### What We're Building
 
 **Internal Quote:**
-*"For decades, blood pressure awareness has been locked behind clinical gates—white coats, cuffs, and the privilege of proactive healthcare. Personal Health Agent democratizes not just awareness, but reversal. We're proving that AI agents can guide people to change their cardiovascular health through lifestyle, not medication. For 20 million young adults who have no idea they're at risk, this is the intervention that comes decades early—when it can still change the trajectory of their lives. We're not trying to replace doctors. We're replacing the decades of silent damage that happen before people ever see one."* — VP, Google Health
+*"For decades, blood pressure awareness has been locked behind clinical gates—white coats, cuffs, and the privilege of proactive healthcare. Personal Health Agent democratizes not just awareness, but the opportunity to make lifestyle changes that may help improve cardiovascular wellness. We're proving that AI agents can guide people toward lifestyle choices that, as part of a healthy lifestyle, may help support positive changes in their cardiovascular health. For 20 million young adults who have no idea they're at risk, this is the intervention that comes decades early—when it can still change the trajectory of their lives. We're not trying to replace doctors. We're replacing the decades of silent damage that happen before people ever see one."* — VP, Google Health
 
 **Customer Quote:**
-*"I'm 36. I felt invincible. Then my Personal Health Agent showed me my range had been elevated for 5 weeks—I had no idea. But here's what changed my life: it didn't just tell me I had a problem. It showed me the cause (my sleep had dropped to 6 hours after my daughter was born) and gave me a plan to fix it. I did the 14-day Sleep Coaching. My range came back to baseline. I reversed it—no doctor, no medication, just sleep. That's when I realized: this isn't a tracker. It's a partner. And it gave me back decades of health I didn't know I was losing."* — Marcus, 36, Early Tester
+*"I'm 36. I felt invincible. Then my Personal Health Agent showed me my range had been elevated for 5 weeks—I had no idea. But here's what changed my life: it didn't just tell me I had a problem. It showed me the correlation (my sleep had dropped to 6 hours after my daughter was born) and gave me a plan to improve it. I did the 14-day Sleep Coaching. My range came back to baseline—no doctor, no medication, just lifestyle changes that made a real difference. That's when I realized: this isn't a tracker. It's a partner. And it gave me back decades of health I didn't know I was losing."* — Marcus, 36, Early Tester
 
 ### Get Started
 
