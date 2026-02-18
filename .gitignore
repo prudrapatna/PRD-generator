@@ -2,3 +2,6 @@
 firebase-debug.log
 ~/
 .worktrees/
+
+#Ignore vscode AI rules
+.github/instructions/codacy.instructions.md

@@ -8,7 +8,14 @@
 
 ## 1. TL;DR
 
-**Google Personal Health Agent** transforms your Pixel Watch into an intelligent cardiovascular wellness coach that not only makes the invisible visible—revealing blood pressure patterns you cannot feel—but actively guides you with personalized lifestyle interventions that, as part of a healthy lifestyle, may help bring elevated ranges back toward baseline. For the 20 million young adults (18-44) walking around with undetected elevated blood pressure, thinking they're invincible, this is the wake-up call that comes with a roadmap: see the pattern, understand the cause, take action, and watch your range return to baseline—all without a doctor's appointment, a prescription, or the anxiety of medicalization.
+**What It Is:**
+Google Personal Health Agent is an AI-powered wellness platform that works invisibly in the background on your Google wearable, monitoring your blood pressure patterns without any effort on your part. It's a general wellness tool (not a medical device) that uses advanced photoplethysmography (PPG) sensors and machine learning to estimate cardiovascular wellness ranges.
+
+**The Experience:**
+You wear your compatible Google wearable as usual—no cuffs, no calibration, no manual measurements. Every week, you receive a calm, reassuring summary showing whether your wellness range was stable. If your blood pressure patterns stay elevated for a sustained period (typically 30 days), you'll receive a single, empathetic notification explaining what might be contributing to the shift—like decreased sleep or increased stress—along with personalized guidance on specific lifestyle changes that, as part of a healthy lifestyle, may help bring your range back toward baseline. The system doesn't alarm you with daily alerts; it respects your attention while giving you the insights and coaching you need, when you need them. If patterns persist, it encourages you to consult with a healthcare provider.
+
+**Who It's For:**
+The 20 million young adults (18-44) with unrecognized elevated blood pressure patterns who feel healthy, are building their lives, and want proactive wellness insights without medicalizing their daily routines. This gives them awareness, actionable guidance, and the opportunity to optimize their cardiovascular wellness decades before problems emerge.
 
 ---
 
@@ -16,33 +23,33 @@
 
 ### Mission Alignment: The Personal Health Agent Revolution
 
-Google Health exists to democratize preventive healthcare by making advanced health monitoring accessible, affordable, and anxiety-free for everyone. **Personal Health Agent** advances this mission by transforming the relationship between users and their cardiovascular wellness—from passive awareness to **active reversal**.
+Google Health exists to democratize preventive healthcare by making advanced health insights accessible, affordable, and anxiety-free for everyone. **Personal Health Agent** advances this mission by transforming the relationship between users and their cardiovascular wellness—from passive awareness to **active lifestyle guidance**.
 
 Here's the breakthrough: **Elevated blood pressure may be improved through lifestyle change.** Research shows that improving sleep quality (7+ hours), reducing sodium intake, increasing physical activity, and managing stress, as part of a healthy lifestyle, may help bring blood pressure back to healthier ranges in many cases. But most people never get the chance to try because they don't know they're elevated until it's a medical crisis.
 
-We're changing that. For the first time, a **Personal Health Agent**—not a doctor, not a device, but an intelligent companion—makes the invisible visible, then guides you toward the specific lifestyle changes that, as part of a healthy lifestyle, may help support improvements in your elevated range. This is not monitoring. This is **active intervention** through personalized coaching, delivered with the gentleness of a friend and the rigor of clinical science.
+We're changing that. For the first time, a **Personal Health Agent**—an intelligent companion—makes the invisible visible, then guides you toward the specific lifestyle changes that, as part of a healthy lifestyle, may help support improvements in your elevated range. When patterns consistently show you're out of range, we'll notify you to consider consulting with a healthcare provider. This is not passive tracking. This is **active intervention** through personalized coaching, delivered with the gentleness of a friend and the rigor of clinical science.
 
 **The Young Adult Crisis:** This matters most for the 20 million young adults (18-44) with undetected elevated blood pressure. They're not "old enough" to worry. They feel fine. They're building careers, raising families, living full lives—unaware that silent cardiovascular stress is accumulating. By the time symptoms appear (chest pain, stroke), decades of damage have occurred. We're reaching them now, in their 30s and 40s, when lifestyle interventions have maximum impact and decades of health to protect.
 
 ### Market Positioning: The Personal Health Agent Category
 
-We are defining a new category: **Personal Health Agent for Cardiovascular Wellness**. This is not "blood pressure monitoring" (medical device positioning). This is not "cuff replacement" (competing with Omron). This is not even "passive tracking" (wearables status quo).
+We are defining a new category: **Personal Health Agent for Cardiovascular Wellness**. This is not "blood pressure tracking" (medical device positioning). This is not "cuff replacement" (competing with Omron). This is not even "passive data collection" (wearables status quo).
 
-This is the first **agentic system** for cardiovascular wellness—an intelligent companion that detects invisible patterns, predicts lifestyle impact, and actively guides users with personalized interventions that, as part of a healthy lifestyle, may help support improvements in elevated ranges. Competitors give you numbers. We give you a roadmap to change them.
+This is the first **agentic system** for cardiovascular wellness—an intelligent companion that identifies invisible patterns, predicts lifestyle impact, and actively guides users with personalized interventions that, as part of a healthy lifestyle, may help support improvements in elevated ranges. Competitors give you numbers. We give you a roadmap to change them.
 
 **Competitive Moat:**
-- **Detect + Guide + Reverse:** Only system that closes the loop from detection → lifestyle guidance → range normalization (vs. competitors' "here's your number, good luck")
-- **Passive + Calibration-Free:** Zero user effort for detection (vs. Samsung's monthly calibration burden)
-- **ABPM Validation Standard:** Gold-standard ground truth capturing 24-hour patterns including sleep (vs. Apple's home BP baseline which misses nocturnal hypertension)
+- **Identify + Guide + Support:** Only system that closes the loop from pattern identification → lifestyle guidance → progress tracking → healthcare consultation encouragement (vs. competitors' "here's your number, good luck")
+- **Passive + Calibration-Free:** Zero user effort for data collection (vs. Samsung's monthly calibration burden)
+- **ABPM Validation Standard:** Gold-standard ground truth capturing 24-hour patterns including sleep (vs. Apple's home BP baseline which misses nocturnal patterns)
 - **Longitudinal Intelligence:** 30-day analysis windows distinguish sustained patterns from temporary stress spikes
-- **Predictive World Model:** Multi-horizon prediction showing users "if I sleep more, my range improves" with 80% probability (vs. competitors' reactive logbooks)
+- **Predictive World Model:** Multi-horizon prediction showing users "if I sleep more, my range may improve" with 80% probability (vs. competitors' reactive logbooks)
 - **Personalized Lifestyle Coaching:** AI-powered sleep, stress, and activity interventions tailored to your patterns (vs. generic advice)
 
 ### Success at Scale
 
-If we achieve 15% penetration of the Pixel Watch user base (5M users), we will identify an estimated 500,000 individuals with undetected cardiovascular risk. At population scale (50M wearers), we can bridge the awareness gap for millions—enabling early interventions that prevent strokes, heart attacks, and the billions in downstream healthcare costs from unmanaged hypertension.
+If we achieve 15% penetration of Google's wearable ecosystem user base (5M users), we will identify an estimated 500,000 individuals with unrecognized cardiovascular risk who can then seek appropriate medical evaluation and care. At population scale (50M wearers across our product portfolio), we can bridge the awareness gap for millions—enabling earlier healthcare consultations and lifestyle interventions that, when combined with proper medical care, can help reduce the downstream healthcare costs from elevated blood pressure patterns.
 
-More importantly, we will have proven that **general wellness technology**, when designed with clinical rigor, can deliver public health impact without the burden of medical device regulation—making preventive care universally accessible.
+More importantly, we will have proven that **Google Personal Health Agent**, as a platform-agnostic AI system, can deliver public health impact across multiple form factors—making preventive care universally accessible regardless of which Google wearable device users choose.
 
 ---
 
@@ -59,7 +66,7 @@ The feature provides personalized coaching and guidance on lifestyle choices whi
 - Activity recommendations based on individual patterns
 - Educational content on how lifestyle factors influence cardiovascular wellness
 
-The feature provides notifications when values fall outside of general wellness ranges to prompt users to reflect on their habits, engage with personalized lifestyle coaching, or consider evaluation by a healthcare professional if patterns persist. It is **not intended to diagnose, treat, cure, or prevent any disease or medical condition**, including hypertension.
+The feature provides notifications when values fall outside of general wellness ranges to prompt users to reflect on their habits, engage with personalized lifestyle coaching, or consider evaluation by a healthcare professional if patterns persist. It is **not intended to diagnose, treat, cure, or prevent any disease or medical issue**.
 
 **Clinical Context:**
 Research demonstrates that lifestyle interventions (improved sleep, reduced sodium, increased activity, stress management), as part of a healthy lifestyle, may help support cardiovascular wellness in individuals with elevated blood pressure ranges. This feature educates users on these well-established associations and helps them implement such choices as part of a healthy lifestyle.
@@ -80,63 +87,63 @@ This feature helps you understand the relationship between your lifestyle choice
 
 **FOR IMMEDIATE RELEASE**
 
-**Google Announces "Personal Health Agent": Making the Invisible Visible, Positive Change Possible**
+**Google Announces "Personal Health Agent": Your Intelligent Partner for Cardiovascular Wellness**
 
-**MOUNTAIN VIEW, CA** — Today, Google introduces **Personal Health Agent**, a revolutionary AI-powered wellness companion for Pixel Watch and Radiance that not only makes blood pressure patterns you cannot feel visible through continuous, passive intelligence—but actively guides you with personalized lifestyle interventions that, as part of a healthy lifestyle, may help bring elevated ranges back toward baseline, targeting the 20 million young adults who have no idea they're at risk.
+**MOUNTAIN VIEW, CA** — Today, Google introduces **Personal Health Agent**, a revolutionary AI-powered wellness platform for Google's wearable ecosystem that transforms how people understand and optimize their cardiovascular health. By making blood pressure patterns visible through continuous, passive intelligence, and providing personalized lifestyle guidance, Personal Health Agent empowers millions to take proactive steps toward better wellness—before patterns become concerns.
 
-### The Problem: The Invisible Threat Robbing Young Adults of Decades
+### The Opportunity: Unlocking Your Body's Hidden Signals
 
-High blood pressure is called "The Silent Killer" for a reason: you cannot feel it. No headaches. No warning signs. No sense of urgency. It exists entirely in the invisible realm of your body's physiology—rising and falling throughout the day and night without ever making itself known.
+Your body is constantly communicating with you—but some of its most important messages are invisible. Blood pressure patterns shift throughout your day in response to sleep, stress, activity, and countless lifestyle factors. Yet unlike energy levels or mood, these patterns exist beneath conscious awareness.
 
-This invisibility has devastating consequences. **60 million Americans** have uncontrolled hypertension and don't know it. Among young adults (18-44), the awareness gap is catastrophic: **20 million people**—in their 30s and 40s, building careers, raising families, at the peak of their lives—are walking around with dangerous cardiovascular stress, completely unaware. They feel fine. They think they're invincible. They have no reason to check.
+This creates a unique opportunity. **Research shows that lifestyle interventions—improved sleep, stress management, increased activity—can, as part of a healthy lifestyle, help bring cardiovascular wellness ranges back toward baseline in many individuals.** But to make these improvements, you first need awareness.
 
-But here's what's happening silently: their arteries are stiffening. Their hearts are working overtime. Micro-damage is accumulating. By the time symptoms appear—chest pain, stroke, heart attack—decades of health have been stolen. And the cruelest part? **It didn't have to happen.** Elevated blood pressure in young adults is overwhelmingly lifestyle-driven, and research shows that sleep improvement, stress management, and activity changes, as part of a healthy lifestyle, may help bring ranges back toward baseline. But they never get the chance to try these lifestyle interventions because they don't know they're elevated.
+For the 20 million young adults (18-44) building careers, raising families, and living full lives, cardiovascular wellness often isn't top of mind. They feel great. They're active. They assume they're healthy. And they are—but with insight into their patterns, they could optimize even further, protecting decades of future health.
 
-The tragedy is not that blood pressure measurement is impossible. It's that the current system requires active effort (cuffs, calibration, doctor visits, medical anxiety), so young, healthy-feeling people don't check. And what is invisible remains invisible—until it's too late.
+The challenge isn't lack of solutions—it's lack of awareness. Traditional approaches require deliberate effort: scheduling appointments, using cuffs, remembering to measure. For busy, healthy-feeling people, these barriers mean cardiovascular wellness stays invisible. Until now.
 
-### The Solution: A Personal Health Agent That Guides You to Reverse It
+### The Solution: Your Intelligent Wellness Partner
 
-**Personal Health Agent** changes everything. There is no cuff. There is no calibration. There is no doctor visit. You simply wear your watch, and your personal agent watches over you—then helps you take action.
+**Google Personal Health Agent** changes the equation. It's not about the device—it's about the intelligence. There is no cuff. There is no calibration. You simply wear your compatible Google wearable, and your personal agent works for you—watching, learning, and guiding.
 
-Using advanced photoplethysmography (PPG) sensors and Google's novel **Waveform Foundation Model**—a deep learning system trained on the "song" of millions of heartbeats—your agent learns the unique rhythm of your blood flow. It watches in the background, day and night, building a longitudinal picture of your cardiovascular wellness range across weeks and months.
+Using advanced photoplethysmography (PPG) sensors available across Google's wearable portfolio and Google's novel **Waveform Foundation Model**—a deep learning system trained on millions of heartbeat patterns—your agent learns the unique rhythm of your cardiovascular system. It observes in the background, day and night, building a longitudinal understanding of your wellness patterns across weeks and months.
 
-But here's the breakthrough: **it doesn't stop at detection.** When your agent notices your range has been elevated for 4 weeks, it doesn't just alarm you. It becomes your coach. It analyzes your sleep patterns, stress windows, activity levels, and recovery data to identify the specific lifestyle factors correlating with your elevated range. Then it guides you—with empathy, with personalization, with evidence—toward changes that, as part of a healthy lifestyle, may help bring your range back toward baseline.
+But here's the breakthrough: **it transforms awareness into action.** When your agent identifies patterns worth exploring, it doesn't just notify you—it becomes your coach. It analyzes your sleep quality, stress patterns, activity levels, and recovery data to pinpoint the specific lifestyle factors that correlate with your cardiovascular wellness. Then it guides you—with empathy, personalization, and evidence—toward changes that, as part of a healthy lifestyle, may help optimize your wellness.
 
-*"Your range has been elevated for 4 weeks. I've noticed your sleep dropped from 7.5 hours to 6.2 hours during this period. Research shows that improving sleep, as part of a healthy lifestyle, may help bring cardiovascular wellness range back toward baseline. Let's try a 14-day Sleep Coaching plan tailored to your schedule. Ready?"*
+*"I've noticed your wellness range has shifted over the past 4 weeks, which correlates with your sleep decreasing from 7.5 to 6.2 hours per night. Research shows that improving sleep, as part of a healthy lifestyle, may help bring cardiovascular wellness range back toward baseline. Would you like to try a personalized 14-day Sleep Coaching plan? I'll guide you step by step."*
 
-This is the difference between a sensor and an agent. Between awareness and action. Between knowing you're at risk and taking steps that may help improve it.
+This is the difference between passive tracking and active partnership. Between data and understanding. Between awareness and empowerment.
 
-**The 7-Star Experience: Invisible Protection, Visible Peace of Mind**
+**The 7-Star Experience: Effortless Awareness, Empowering Action**
 
-- **The Invisible Setup:** You put on your watch. That's it. No onboarding flow. No calibration ritual. While you live your life, the system quietly learns your baseline over 14 days. You get a single notification: "Health Guardian is learning your baseline. You'll receive your first insights next Monday."
+- **The Invisible Setup:** You enable Personal Health Agent in your Google Health app. That's it. No onboarding flow. No calibration ritual. While you live your life, the system quietly learns your baseline over 14 days. You get a single notification: "Personal Health Agent is learning your patterns. You'll receive your first insights next Monday."
 
-- **The Reassuring Glance:** Every Monday morning, you wake up to a "Weekly Range" card. It doesn't show you numbers—just a simple, calming visualization: "Your range was stable last week." Below it, the system highlights what likely contributed: "Your improved sleep (avg 7.5 hrs, up from 6.8) may have helped maintain your wellness range."
+- **The Weekly Check-In:** Every Monday morning, you wake up to a "Weekly Wellness Summary" card in your Google Health app. It shows a simple, calming visualization: "Your range was stable last week." Below it, the system highlights positive correlations: "Your consistent sleep (avg 7.5 hrs, up from 6.8) may have contributed to maintaining your wellness range."
 
-- **The Personal Coach:** If life gets hectic and your range drifts persistently for a month, your agent doesn't alarm you. It doesn't use red colors or clinical terms. Instead, it becomes your coach, offering a personalized path forward: "I've noticed your range has been elevated for 4 weeks. This correlates with your sleep dropping to 6.2 hrs/night (down from 7.5 hrs). Research shows that improving sleep, as part of a healthy lifestyle, may help bring cardiovascular wellness range back toward baseline. Let's try a personalized 14-day Sleep Coaching plan. I'll guide you step by step."
+- **The Proactive Partner:** If life gets busy and your patterns shift over several weeks, your agent doesn't alarm you—it offers guidance. No red colors. No clinical terms. Instead, it becomes your coach: "I've noticed your wellness range has shifted over 4 weeks, which correlates with your sleep decreasing to 6.2 hrs/night (down from 7.5 hrs). Research shows that improving sleep, as part of a healthy lifestyle, may help optimize cardiovascular wellness. Would you like to try a personalized 14-day Sleep Coaching plan? If patterns continue, I'll remind you to consider consulting with a healthcare provider."
 
-- **The Improvement Journey:** You accept the coaching plan. Over 14 days, your agent sends gentle daily prompts: "Try a 10-minute wind-down routine tonight," "Your bedtime consistency improved 40% this week—great work." After 2 weeks, you see the result: "Your range returned to stable. Your sleep averaged 7.4 hrs during coaching (up from 6.2 hrs). This is what making the invisible visible—and supporting positive change—looks like."
+- **The Optimization Journey:** You engage with the coaching plan. Over 14 days, your agent sends supportive daily guidance: "Try a 10-minute wind-down routine tonight," "Your bedtime consistency improved 40% this week—excellent progress." After 2 weeks, you track your results: "Your sleep averaged 7.4 hrs during coaching (up from 6.2 hrs). Continue monitoring to see how these changes support your wellness. If you'd like additional support, consider discussing with your healthcare provider."
 
-This is not a medical device barking orders. This is not a passive sensor logging data. This is a **Personal Health Agent**—making what was invisible visible, what was ignored actionable, and what felt fixed potentially improvable.
+This is not a medical device issuing warnings. This is not a passive sensor logging data. This is **Google Personal Health Agent**—an AI platform that works across your wearables, making patterns visible, insights actionable, and wellness optimization achievable.
 
-### Why This Matters: The World Model Difference
+### Why This Matters: Intelligence That Empowers
 
 Most wearables are logbooks. They record. They report. They say "here's your number."
 
-Health Guardian is different. It is a **World Model**—a simulation of your physiology that understands cause and effect. It doesn't just tell you your range shifted; it explains *why* by correlating it with sleep quality, activity patterns, stress windows, and recovery metrics. It predicts: "If you increase sleep by 60 minutes, there's an 80% probability your range stabilizes within 7 days."
+**Google Personal Health Agent** is different. It is a **World Model**—a simulation of your physiology that understands cause and effect. It doesn't just tell you your patterns shifted; it explains *why* by correlating it with sleep quality, activity patterns, stress windows, and recovery metrics. It predicts: "If you improve sleep by 60 minutes, there's an 80% probability your wellness range may optimize within 7 days."
 
-This is the difference between a sensor and a coach. Between reactive monitoring and proactive guidance. Between data and understanding.
+This is the difference between tracking and coaching. Between reactive data and proactive guidance. Between information and understanding. And because it's an AI platform, not a device feature, it gets smarter over time—learning from millions of users to provide increasingly personalized insights, regardless of which Google wearable you use.
 
 ### What We're Building
 
 **Internal Quote:**
-*"For decades, blood pressure awareness has been locked behind clinical gates—white coats, cuffs, and the privilege of proactive healthcare. Personal Health Agent democratizes not just awareness, but the opportunity to make lifestyle changes that may help improve cardiovascular wellness. We're proving that AI agents can guide people toward lifestyle choices that, as part of a healthy lifestyle, may help support positive changes in their cardiovascular health. For 20 million young adults who have no idea they're at risk, this is the intervention that comes decades early—when it can still change the trajectory of their lives. We're not trying to replace doctors. We're replacing the decades of silent damage that happen before people ever see one."* — VP, Google Health
+*"For decades, cardiovascular wellness has been reactive—waiting for problems to appear before taking action. Google Personal Health Agent makes wellness proactive and accessible. We're empowering people with insights into patterns they can't feel, connected to lifestyle actions they can take. For 20 million young adults who are healthy today and want to stay that way, this is the partner that helps them optimize for decades ahead. When patterns shift persistently, we help them understand what's happening and support them in consulting healthcare providers for additional guidance. And because this is an AI platform, not a device-specific feature, we're building something that scales across our entire wearable portfolio—making wellness intelligence universal."* — VP, Google Health
 
 **Customer Quote:**
-*"I'm 36. I felt invincible. Then my Personal Health Agent showed me my range had been elevated for 5 weeks—I had no idea. But here's what changed my life: it didn't just tell me I had a problem. It showed me the correlation (my sleep had dropped to 6 hours after my daughter was born) and gave me a plan to improve it. I did the 14-day Sleep Coaching. My range came back to baseline—no doctor, no medication, just lifestyle changes that made a real difference. That's when I realized: this isn't a tracker. It's a partner. And it gave me back decades of health I didn't know I was losing."* — Marcus, 36, Early Tester
+*"I'm 36 and always thought I was doing great health-wise. Then my Personal Health Agent showed me a pattern I couldn't feel—my wellness range had shifted over 5 weeks, correlating with my sleep dropping to 6 hours after my daughter was born. But here's what changed everything: it didn't scare me. It coached me. It showed me the connection and gave me a clear path forward. I did the Sleep Coaching plan while also checking in with my doctor. Together with my healthcare team and the lifestyle guidance from the app, I've been able to work on optimizing my wellness. That's when I realized: this isn't about my watch. It's about having an intelligent partner that helps me understand my body and take action. It's given me confidence that I'm protecting my health for the long term."* — Marcus, 36, Early Tester
 
 ### Get Started
 
-Personal Health Agent will be available on Pixel Watch 3 and Radiance starting Q3 2026 as part of the Google Health app (no additional subscription required). Simply wear your watch, and your agent begins working for you automatically.
+Google Personal Health Agent will be available starting Q3 2026 across Google's wearable ecosystem as part of the Google Health app (no additional subscription required). Simply enable the feature in your Google Health app, and your agent begins working for you automatically—regardless of which compatible Google wearable you choose.
 
 ---
 
@@ -145,12 +152,12 @@ Personal Health Agent will be available on Pixel Watch 3 and Radiance starting Q
 The product name carries significant weight in communicating our value proposition. Here are powerful options analyzed:
 
 ### Recommended: Personal Health Agent ⭐
-**Positioning:** AI-powered wellness companion that actively guides (not just monitors)
+**Positioning:** AI-powered wellness companion that actively guides (not just tracks)
 **Emotional Resonance:** Agency, partnership, intelligence
-**Differentiator:** "Agent" signals proactive intervention, not passive tracking
+**Differentiator:** "Agent" signals proactive intervention, not passive data collection
 **Brand Fit:** Aligns with Google's AI leadership and agentic systems vision
 **User Language:** "My agent told me..." (creates relationship vs. "my watch showed...")
-**Category Definition:** Establishes new "Personal Health Agent" category beyond monitoring
+**Category Definition:** Establishes new "Personal Health Agent" category beyond passive tracking
 
 ### Alternative Options
 
@@ -195,7 +202,7 @@ The product name carries significant weight in communicating our value propositi
 7. **Relationship Building:** "My agent" creates partner dynamic vs. "my device" (transactional)
 
 **User Research Insight:** Early testing with 30-40 demo shows "Agent" resonates powerfully:
-*"It feels like having a personal health expert who actually knows me and helps me fix things—not just telling me what's wrong."*
+*"It feels like having a personal health expert who actually knows me and helps me understand what's happening—not just telling me what's wrong."*
 
 ---
 
@@ -207,8 +214,8 @@ Blood pressure is fundamentally imperceptible. Unlike pain, fatigue, or shortnes
 
 This invisibility drives a catastrophic awareness gap:
 
-- **50% of Americans** have hypertension
-- **~60-70% of young adults (18-44)** with uncontrolled hypertension are unaware
+- **50% of Americans** have elevated blood pressure patterns
+- **~60-70% of young adults (18-44)** with elevated patterns are unaware
 - **20 million people** are walking around with dangerous cardiovascular stress, oblivious
 - By the time symptoms appear (chest pain, stroke, heart attack), irreversible damage has occurred
 
@@ -216,11 +223,11 @@ This invisibility drives a catastrophic awareness gap:
 
 Current solutions require active, intentional effort:
 
-- **Office Blood Pressure:** Infrequent (annual visits at best), prone to "White Coat Hypertension" (anxiety-induced false highs)
+- **Office Blood Pressure:** Infrequent (annual visits at best), prone to "White Coat Effect" (anxiety-induced false highs)
 - **Home Cuffs:** Require purchasing hardware, remembering to use it 2x/day for 5-7 days, enduring the squeeze, and interpreting results
-- **Ambulatory Monitors (ABPM):** Gold standard but requires clinical prescription, 24-hour cuff wear, and medical interpretation
+- **Ambulatory Devices (ABPM):** Gold standard but requires clinical prescription, 24-hour cuff wear, and medical interpretation
 
-The result? The "invincible" young demographic—those most at risk from decades of undetected hypertension—simply don't check. Why would you, when you feel fine?
+The result? The "invincible" young demographic—those most at risk from decades of unrecognized elevated patterns—simply don't check. Why would you, when you feel fine?
 
 ### The Google Health Differentiation: Passive Intelligence
 
@@ -230,8 +237,8 @@ We are not trying to replace cuffs or compete with medical devices. We are solvi
 
 1. **Passive Sensing:** No user action required. Data collection happens in the background during normal wear.
 2. **Calibration-Free:** No setup burden (vs. Samsung's monthly cuff calibration requirement).
-3. **Longitudinal Analysis:** 30-day rolling windows distinguish sustained patterns from temporary spikes (one stressful meeting ≠ hypertension).
-4. **ABPM Ground Truth:** We validate against 24-hour ambulatory monitoring (gold standard) which captures nocturnal dipping and true variability, unlike competitors using home BP (waking hours only).
+3. **Longitudinal Analysis:** 30-day rolling windows distinguish sustained patterns from temporary spikes (one stressful meeting ≠ elevated wellness range).
+4. **ABPM Ground Truth:** We validate against 24-hour ambulatory assessment (gold standard) which captures nocturnal dipping and true variability, unlike competitors using home BP (waking hours only).
 5. **World Model Reasoning:** Multi-horizon prediction showing users the relationship between lifestyle choices (sleep, stress, activity) and cardiovascular wellness range.
 
 ---
@@ -240,10 +247,10 @@ We are not trying to replace cuffs or compete with medical devices. We are solvi
 
 ### Target Performance (The Benchmark)
 
-Our goal is to demonstrate **non-inferiority to Office Blood Pressure** measurement when both are compared to the gold standard: 24-Hour Ambulatory Blood Pressure Monitoring (ABPM).
+Our goal is to demonstrate **non-inferiority to Office Blood Pressure** measurement when both are compared to the gold standard: 24-Hour Ambulatory Blood Pressure Assessment (ABPM).
 
 **Clinical Context:**
-Office BP is the current standard of care for hypertension screening, yet it has well-documented limitations (White Coat Effect, single time-point measurement). The USPSTF systematic review (Guirguis-Blake et al., JAMA 2021) established Office BP performance against ABPM:
+Office BP is the current standard of care for screening, yet it has well-documented limitations (White Coat Effect, single time-point measurement). The USPSTF systematic review (Guirguis-Blake et al., JAMA 2021) established Office BP performance against ABPM:
 
 | Metric | **Office BP Benchmark** | **Source** |
 |:-------|:----------------------|:-----------|
@@ -280,11 +287,11 @@ To confirm performance at scale, we are conducting a multi-site clinical study:
 **Study Design:**
 - **Sample Size:** N=1,600 participants
 - **Demographics:** Representative US population (age, sex, BMI, skin tone per Fitzpatrick scale)
-- **Ground Truth:** 24-Hour Ambulatory Blood Pressure Monitoring (ABPM) for all participants
+- **Ground Truth:** 24-Hour Ambulatory Blood Pressure Assessment (ABPM) for all participants
 - **Endpoints:** Sensitivity and specificity for identifying sustained elevated BP (SBP ≥130 or DBP ≥80 over 14+ days)
 - **Subgroup Analyses:** Performance stratified by age, BMI, skin tone to ensure equity
 
-**Objective:** Demonstrate statistical non-inferiority to Office BP for identifying sustained elevated blood pressure.
+**Objective:** Demonstrate statistical non-inferiority to Office BP for identifying sustained elevated blood pressure patterns.
 
 **Timeline:**
 - Q2 2026: Study initiation
@@ -316,26 +323,26 @@ To confirm performance at scale, we are conducting a multi-site clinical study:
 4. **World Model Reasoning:** Predicts lifestyle impact on range vs. reactive logging
 
 **Where Competitors Win:**
-1. **Medical Device Claims:** Apple/Samsung can use terms like "blood pressure monitoring," we cannot (regulatory trade-off for accessibility)
+1. **Medical Device Claims:** Apple/Samsung can use terms like "blood pressure tracking," we cannot (regulatory trade-off for accessibility)
 2. **Absolute Values:** Samsung/Omron provide numerical readings (120/80), we provide ranges (regulatory constraint for general wellness)
 
 **Strategic Choice:**
-We accept the constraint of general wellness positioning because it unlocks accessibility without prescription barriers. Our target user (Proactive Adopter) wants awareness, not diagnosis. Peace of mind, not medical management.
+We accept the constraint of general wellness positioning because it unlocks accessibility without prescription barriers. Our target user (Proactive Adopter) wants awareness, not diagnosis. Peace of mind, not medical oversight.
 
 ---
 
 ## 7. App Overview (The 7-Star Mobile Experience)
 
-**Philosophy:** The wearable is the sensor. The phone is the product. All user-facing intelligence, insights, and interactions happen in the mobile app.
+**Philosophy:** The wearable is the sensor. The AI is the brain. The phone is the interface. All user-facing intelligence, insights, and interactions happen in the Google Health mobile app. **Google Personal Health Agent** is a platform that works across any compatible wearable in our ecosystem, ensuring users get consistent, intelligent guidance regardless of device choice.
 
 ### The Health World Model
 
-We are building beyond reactive monitoring—we are creating a **World Model** of the user's cardiovascular health.
+We are building beyond reactive data logging—we are creating a **World Model** of the user's cardiovascular health.
 
 **What is a World Model?**
 A simulation of the user's physiology that understands cause-and-effect relationships. It learns:
 - *"When this user sleeps 7+ hours, their wellness range stabilizes within 3 days"*
-- *"Stress events (detected via HRV drops) correlate with 5-7 day range elevations"*
+- *"Stress events (identified via HRV drops) correlate with 5-7 day range elevations"*
 - *"Increased walking (8k+ steps/day) corresponds to 10% lower vascular stiffness proxy"*
 
 **Multi-Horizon Prediction:**
@@ -353,15 +360,15 @@ This is not about nagging users. It's about giving them agency through intellige
 
 #### **Phase 1: The Invisible Setup (Day 0-14)**
 
-**User Action:** Enable Health Guardian during watch setup or in Health App settings.
+**User Action:** Enable Google Personal Health Agent during wearable setup or in Google Health App settings.
 
 **System Behavior:**
-1. User taps "Enable Guardian"
+1. User taps "Enable Personal Health Agent"
 2. System prompts for **Height** (mandatory—critical for algorithm accuracy)
-3. Confirmation screen: *"Health Guardian is learning your baseline. Wear your watch as usual. You'll receive your first insights in 14 days."*
+3. Confirmation screen: *"Personal Health Agent is learning your baseline. Wear your compatible wearable as usual. You'll receive your first insights in 14 days."*
 
 **Design Note:**
-No progress bars. No daily updates. No anxiety-inducing "calibration mode." The system works invisibly. Users forget about it until Monday morning.
+No progress bars. No daily updates. No anxiety-inducing "calibration mode." The system works invisibly across all compatible devices. Users forget about it until Monday morning.
 
 ---
 
@@ -423,7 +430,7 @@ If user has ≥14 valid days in a rolling 30-day window, and ≥70% of those day
 
 **Target User:** "Proactive Adopter" (Age 30-50, Health-Conscious, Tech-Forward, Anxiety-Prone)
 **Critical Goal:** I want to enable cardiovascular protection without medicalizing my life or creating daily anxiety.
-**Context:** Unboxing a new Pixel Watch or exploring the Google Health app after hearing about Health Guardian.
+**Context:** Using a compatible Google wearable and exploring the Google Health app after hearing about Personal Health Agent.
 
 ---
 
@@ -431,9 +438,9 @@ If user has ≥14 valid days in a rolling 30-day window, and ≥70% of those day
 
 | Goal (The "Why") | Task (The "How") | Product/CUI (Instrumentation) | Health Score | User Emotion |
 |:-----------------|:-----------------|:----------------------------|:------------|:------------|
-| **I want to enable protection effortlessly** | 1. I tap "Enable Health Guardian" in OOBE or Health app settings. | Toggle Switch Tap | **Healthy** | Curious, Hopeful |
+| **I want to enable protection effortlessly** | 1. I tap "Enable Personal Health Agent" in Google Health app settings. | Toggle Switch Tap | **Healthy** | Curious, Hopeful |
 | | 2. I confirm my height (shown why it's needed: "Helps improve accuracy"). | Height Picker Confirm | **Healthy** | Engaged |
-| | 3. I see a confirmation: "Health Guardian is learning your baseline. Wear your watch as usual." | Status Card: "Calibrating" | **Healthy** | Relieved (No burden) |
+| | 3. I see a confirmation: "Personal Health Agent is learning your baseline. Wear your compatible wearable as usual." | Status Card: "Calibrating" | **Healthy** | Relieved (No burden) |
 | **I want to check my status without anxiety** | 4. I receive a Monday morning notification: "Your weekly wellness range is ready." | Push Notification | **Healthy** | Reassured |
 | | 5. I open the app and see "Your range was stable last week." | Dashboard Card View | **Healthy** | Calm, Validated |
 | | 6. I see lifestyle correlation: "Your improved sleep (7.5 hrs avg) may have helped." | Correlation Insight | **Healthy** | Empowered, Understood |
@@ -443,26 +450,26 @@ If user has ≥14 valid days in a rolling 30-day window, and ≥70% of those day
 | | 10. I open the app and see empathetic context: "Patterns like this can be worth exploring. Recent changes: sleep ↓ 45 min/night." | Contextual Explanation | **Healthy** | Acknowledged, Supported |
 | | 11. I am offered choices: "Start Sleep Coaching," "Review Patterns," or "Talk to Provider." | Action Sheet Selection | **Healthy** (Agency) | In control, Grateful |
 | | 12. I choose "Start 14-Day Sleep Coaching" and receive daily guidance. | Coaching Plan Enrollment | **Healthy** | Hopeful, Committed |
-| | 13. After 14 days, I see "Your wellness range returned to stable. Great work on sleep!" | Outcome Feedback | **Healthy** | Proud, Relieved |
+| | 13. After 14 days, I see "You've completed your Sleep Coaching. Your sleep averaged 7.4 hrs (up from 6.2 hrs). Continue tracking to see if these changes help. If patterns of elevation persist, consider consulting your healthcare provider." | Outcome Feedback | **Healthy** | Proud, Aware |
 
 ---
 
 ### Health Metrics (CUJ-Level)
 
 **Usefulness Metric (Goal Level):**
-- **Metric:** CSAT ("Did Health Guardian give you peace of mind about your cardiovascular wellness?")
+- **Metric:** CSAT ("Did Google Personal Health Agent give you peace of mind about your cardiovascular wellness?")
 - **Target:** 4.5/5
 - **Status:** Measured via quarterly HaTS survey
 
 **Usability Metric (Task Level):**
 - **Metric:** Task Success Rate (TSR) for key CUIs
-  - Enable Guardian (Task 1): Target 95%
+  - Enable Personal Health Agent (Task 1): Target 95%
   - View Weekly Summary (Task 5): Target 90%
   - Take Action on Persistent Elevation (Task 11): Target 80%
 - **Health Score:** All P0 tasks must be **Healthy** (≥80% success rate) before GA launch
 
 **Instrumentation (Critical User Interactions):**
-- `cui_enable_guardian_tap` (Task 1)
+- `cui_enable_personal_health_agent_tap` (Task 1)
 - `cui_weekly_summary_viewed` (Task 5)
 - `cui_trend_chart_interaction` (Task 7)
 - `cui_persistent_notification_opened` (Task 9)
@@ -524,7 +531,7 @@ As a system, I must ensure data completeness by processing PPG data in overnight
 **Error Handling:**
 - IF processing pipeline fails, retry 3x with exponential backoff
 - IF failure persists > 48 hours, show in-app banner: *"Data processing delayed. We're working on it."*
-- Log failure to monitoring dashboard with alert to on-call SRE
+- Log failure to operations dashboard with alert to on-call SRE
 
 ---
 
@@ -561,16 +568,16 @@ As a user, I want a reactive weekly summary of my wellness range so I can unders
 
 ---
 
-#### **FR-03: Persistent Elevation Detection (Monthly Proactive Check)**
+#### **FR-03: Persistent Elevation Identification (Monthly Proactive Check)**
 
 **Category:** Logic
 
 **Requirement:**
-As a system, I must detect sustained elevated wellness range patterns over 30 days to notify users of persistent shifts worth exploring.
+As a system, I must identify sustained elevated wellness range patterns over 30 days to notify users of persistent shifts worth exploring.
 
 **Acceptance Criteria:**
 
-**Scenario 05: Persistent Elevation Detected**
+**Scenario 05: Persistent Elevation Identified**
 - **Given** User has ≥14 valid days in the last 30-day rolling window
 - **And** COUNT(days where `probability_elevated` > `HTN_THRESHOLD`) / 14 ≥ 0.70 (70%)
 - **When** Monthly check runs (every Monday at 08:05 AM)
@@ -609,7 +616,7 @@ As a system, I must enforce valid height input and reset calibration when height
 **Acceptance Criteria:**
 
 **Scenario 08: Valid Height Input**
-- **Given** User is in onboarding flow or Settings > Health Guardian
+- **Given** User is in onboarding flow or Settings > Personal Health Agent
 - **When** User enters height
 - **Then** Validate: `HEIGHT_MIN` ≤ `height` ≤ `HEIGHT_MAX`
 - **And** IF valid, save to `UserProfile.height_cm`
@@ -630,7 +637,7 @@ As a system, I must enforce valid height input and reset calibration when height
   - Reset `calibration_start_date` = TODAY
   - Set `status` = "Calibrating"
   - Archive previous `DailyWellnessRange` entries (for potential future analysis)
-  - Send notification: *"Health Guardian is relearning your baseline."*
+  - Send notification: *"Personal Health Agent is relearning your baseline."*
 
 **Error Handling:**
 - IF user enters height in feet/inches and conversion causes floating point error, round to nearest 0.1 cm
@@ -659,7 +666,7 @@ As a system, I must discard low-quality PPG data to prevent garbage-in-garbage-o
 - **Then** Discard packet (likely motion artifact)
 - **And** Log event: `implausible_hr_discarded`
 
-**Scenario 13: Flat Line Detection (Watch Not Worn)**
+**Scenario 13: Flat Line Identification (Watch Not Worn)**
 - **Given** PPG signal shows zero variance for > 10 consecutive minutes
 - **When** Preprocessing evaluates
 - **Then** Mark entire 10-minute window as invalid (watch not worn properly)
@@ -675,7 +682,7 @@ As a system, I must discard low-quality PPG data to prevent garbage-in-garbage-o
 **Category:** AI/LLM
 
 **Requirement:**
-As a system, I must generate empathetic, contextual insights using an LLM to explain wellness range patterns in human language.
+As a system, I must generate empathetic, contextual insights using an LLM to explain wellness range patterns in human language, maintaining the voice of Google Personal Health Agent.
 
 **Acceptance Criteria:**
 
@@ -684,7 +691,7 @@ As a system, I must generate empathetic, contextual insights using an LLM to exp
 - **When** Generating weekly summary text
 - **Then** Call Gemini API with prompt template:
   ```
-  You are Health Guardian, a caring wellness coach. Generate a 1-2 sentence insight explaining this week's wellness range.
+  You are Google Personal Health Agent, a caring wellness coach. Generate a 1-2 sentence insight explaining this week's wellness range.
 
   Context:
   - Range status: Stable
@@ -697,7 +704,7 @@ As a system, I must generate empathetic, contextual insights using an LLM to exp
 - **And** Display this text in the weekly summary card
 
 **Scenario 15: Persistent Elevation Insight Generation**
-- **Given** Persistent elevation detected with correlations: sleep ↓ 45 min/night, stress events ↑ 3x
+- **Given** Persistent elevation identified with correlations: sleep ↓ 45 min/night, stress events ↑ 3x
 - **When** Generating persistent elevation notification text
 - **Then** Call Gemini API with prompt emphasizing empathy and actionable context
 - **And** LLM returns: *"I've noticed your wellness range has been elevated for 4 weeks. This could be related to recent changes in sleep (down 45 min/night) and stress. Let's explore what might help."*
@@ -734,25 +741,28 @@ As a system, I must generate empathetic, contextual insights using an LLM to exp
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│  WATCH (Pixel Watch / Radiance)                            │
+│  WEARABLE DEVICE (Google Wearables Portfolio)              │
 │  - PPG Sensor (Green LED, 25 Hz)                           │
 │  - Accelerometer (25 Hz)                                    │
 │  - On-Device Compression (Tokenization to save battery)    │
 │  - Bluetooth Low Energy (BLE) → Phone                       │
+│  Note: Platform-agnostic design supports current & future  │
+│        devices with compatible PPG sensors                  │
 └─────────────────────────────────────────────────────────────┘
                             ↓
 ┌─────────────────────────────────────────────────────────────┐
-│  PHONE (Pixel 8/9)                                          │
+│  PHONE (Android/iOS)                                        │
 │  - Google Health App (Data buffer)                          │
 │  - WiFi/5G → Cloud Upload (Nightly batch, 02:00 AM)        │
 └─────────────────────────────────────────────────────────────┘
                             ↓
 ┌─────────────────────────────────────────────────────────────┐
-│  CLOUD (Google Cloud Platform)                              │
+│  CLOUD - GOOGLE PERSONAL HEALTH AGENT PLATFORM (GCP)        │
 │  ┌───────────────────────────────────────────────────────┐ │
 │  │  1. INGESTION (Dataflow)                              │ │
 │  │     - Decompress PPG tokens                           │ │
 │  │     - Signal Quality Check (SQI filter)               │ │
+│  │     - Device-agnostic data normalization              │ │
 │  │     - Store raw data (Cloud Storage, 90-day TTL)      │ │
 │  └───────────────────────────────────────────────────────┘ │
 │                           ↓                                 │
@@ -767,7 +777,7 @@ As a system, I must generate empathetic, contextual insights using an LLM to exp
 │  ┌───────────────────────────────────────────────────────┐ │
 │  │  3. LOGIC LAYER (Cloud Functions)                     │ │
 │  │     - Weekly Summary Generator                        │ │
-│  │     - Persistent Elevation Detector                   │ │
+│  │     - Persistent Elevation Identifier                 │ │
 │  │     - Lifestyle Correlator (Sleep/Activity)           │ │
 │  └───────────────────────────────────────────────────────┘ │
 │                           ↓                                 │
@@ -775,6 +785,7 @@ As a system, I must generate empathetic, contextual insights using an LLM to exp
 │  │  4. LLM INSIGHT GENERATION (Gemini API)               │ │
 │  │     - Contextual text generation                      │ │
 │  │     - Empathetic phrasing                             │ │
+│  │     - Google Personal Health Agent voice              │ │
 │  └───────────────────────────────────────────────────────┘ │
 │                           ↓                                 │
 │  ┌───────────────────────────────────────────────────────┐ │
@@ -790,6 +801,7 @@ As a system, I must generate empathetic, contextual insights using an LLM to exp
 │  - Weekly Summary Card                                      │
 │  - Trend Visualization                                      │
 │  - Persistent Elevation Actions                             │
+│  - Device-agnostic UI (same experience across wearables)   │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -940,9 +952,9 @@ To maintain General Wellness classification (FDA Enforcement Discretion), the fo
 
 ### Adoption
 
-**Metric:** % of eligible Pixel Watch users enabling Health Guardian
+**Metric:** % of eligible Google wearable users enabling Personal Health Agent
 **Target:** ≥ 25% within 6 months of GA
-**Rationale:** Demonstrates product-market fit
+**Rationale:** Demonstrates product-market fit across device portfolio
 
 **Metric:** % of users completing 14-day calibration (not disabling early)
 **Target:** ≥ 85%
@@ -952,13 +964,13 @@ To maintain General Wellness classification (FDA Enforcement Discretion), the fo
 
 ### Retention
 
-**Metric:** % of users who DO NOT disable Health Guardian after receiving persistent elevation notification
+**Metric:** % of users who DO NOT disable Personal Health Agent after receiving persistent elevation notification
 **Target:** ≥ 95% (i.e., < 5% disable rate)
-**Rationale:** Persistent elevation is the "moment of truth"—if users trust us here, they trust the product
+**Rationale:** Persistent elevation is the "moment of truth"—if users trust us here, they trust the platform
 
 **Metric:** 30-day active usage rate (≥ 7 valid days per month)
 **Target:** ≥ 70%
-**Rationale:** Demonstrates continued wear compliance
+**Rationale:** Demonstrates continued wear compliance across devices
 
 ---
 
@@ -991,13 +1003,13 @@ To maintain General Wellness classification (FDA Enforcement Discretion), the fo
 ### Business Metrics
 
 **Metric:** Net Promoter Score (NPS)
-**Question:** "How likely are you to recommend Health Guardian to a friend?"
+**Question:** "How likely are you to recommend Google Personal Health Agent to a friend?"
 **Target:** ≥ 50 (top quartile for health tech)
 
-**Metric:** Attribution to Pixel Watch purchase intent
-**Question:** "Did Health Guardian influence your decision to buy/keep Pixel Watch?"
+**Metric:** Attribution to Google wearable purchase intent
+**Question:** "Did Google Personal Health Agent influence your decision to buy/keep your Google wearable?"
 **Target:** ≥ 20% "Yes, it was a key factor"
-**Rationale:** Demonstrates differentiation value for hardware
+**Rationale:** Demonstrates differentiation value for hardware portfolio
 
 ---
 
@@ -1005,12 +1017,13 @@ To maintain General Wellness classification (FDA Enforcement Discretion), the fo
 
 Before GA launch, ALL of the following must be TRUE:
 
-1. ✅ Task Success Rate for "Enable Guardian" ≥ 90%
+1. ✅ Task Success Rate for "Enable Personal Health Agent" ≥ 90%
 2. ✅ Pivotal Study (N=1,600) complete with sensitivity 95% CI overlapping Office BP benchmark
 3. ✅ Zero prohibited regulatory terms in production UI (automated scan)
 4. ✅ P95 latency for weekly summary generation < 500ms
 5. ✅ User testing (N=50) shows ≥ 80% correctly understand "This is not a medical device" disclaimer
 6. ✅ Legal/Regulatory sign-off on all user-facing claims and disclaimers
+7. ✅ Device compatibility validated across minimum 2 Google wearable products with PPG sensors
 
 ---
 

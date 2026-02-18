@@ -53,14 +53,36 @@ Write the PR using the following strict structure. Keep it under 1.5 pages. Use 
 
 ### **Summary**
 *   The "Elevator Pitch." Assume the reader stops here. Summarize the dream and the benefit.
+*   **Structure the TL;DR with three subsections:**
+    *   **What It Is:** Define the product clearly (platform, technology, wellness positioning)
+    *   **The Experience:** Describe the high-level product experience from the user's perspective:
+        *   What happens day-to-day (passive background operation, no user effort)
+        *   What notifications they receive and when (e.g., weekly check-ins, monthly notifications if patterns persist)
+        *   What personalized guidance they get (specific lifestyle factors like sleep, stress, activity)
+        *   How the system respects their attention (single empathetic notifications, not daily alarms)
+        *   What happens if patterns persist (encouragement to consult healthcare provider)
+    *   **Who It's For:** Target demographic with clear numbers and psychographic profile
+*   **Focus on the user journey and experience, not just technical capabilities**
 
 ### **The Problem (The Common Enemy)**
-*   Define the villain. Is it complexity? Is it anxiety? Describe the pain of the status quo so vividly the reader feels it.
+*   Define the challenge or opportunity. Is it complexity? Is it a missed opportunity? Describe the current state clearly.
+*   **CRITICAL TONE GUIDANCE:** Frame the problem as an **opportunity to empower**, not as fear-mongering.
+    *   ❌ AVOID: "Silent killer," "devastating consequences," "catastrophic," "robbing people," "stolen decades," "dangerous," "tragedy"
+    *   ✅ USE: "Invisible patterns," "missed opportunity," "awareness gap," "untapped potential," "hidden signals," "room for optimization"
+    *   **Example Reframe:**
+        *   Instead of: "20 million people are walking around with dangerous stress, completely unaware"
+        *   Use: "20 million people have an opportunity to understand their cardiovascular patterns and optimize their wellness"
+    *   **Focus on:** What people *gain* (awareness, empowerment, optimization) vs. what they *lose* (health, decades, etc.)
+    *   **Emotion:** Curiosity and opportunity, not fear and urgency
 
 ### **The Solution (The Magic)**
 *   Describe how the product *elegantly* solves the problem.
 *   **Highlight:** Explicitly describe the **7-Star** experience. Make it sound magical.
-*   **Aspiration:** Focus on who the user *becomes* when using this product.
+*   **Aspiration:** Focus on who the user *becomes* when using this product (empowered, informed, proactive).
+*   **CRITICAL TONE GUIDANCE:** Frame the solution as **empowerment and partnership**, not salvation from danger.
+    *   ❌ AVOID: "Saves you from," "prevents disaster," "catches problems before it's too late," "protects you from threats"
+    *   ✅ USE: "Empowers you to," "helps you optimize," "gives you visibility into," "partners with you," "guides you toward"
+    *   **Focus on:** Agency, understanding, optimization, and proactive wellness (not reactive rescue)
 
 ### **Internal Quote**
 *   A quote from a company spokesperson explaining *why* we built this. Focus on the mission, not the metrics.
@@ -94,3 +116,4 @@ After the PR, include a FAQ section to address the "How" and "What" that the PR 
 4.  **No Fat:** Cut the specs. This is about *value*.
 5.  **Jobsian Focus:** Simplicity is the ultimate sophistication.
 6.  **The "So What?" Test:** Read every sentence and ask "So what?". If the answer isn't obvious, rewrite it.
+7.  **POSITIVE FRAMING:** Always frame narratives as empowerment and opportunity, never as fear or threat. Focus on what users *gain* (awareness, control, optimization) rather than what they *avoid* (danger, loss, tragedy).
