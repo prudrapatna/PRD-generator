@@ -8,27 +8,35 @@
 
 ## 1. TL;DR
 
-**Google Health Guardian** transforms your Pixel Watch into a silent protector of your cardiovascular health through passive, calibration-free blood pressure trend estimation. By making the invisible visible—revealing blood pressure patterns you cannot feel—we replace the anxiety of the unknown with the peace of mind that comes from continuous, background awareness, empowering 20 million young adults to address undetected hypertension before it leads to life-changing health events.
+**Google Personal Health Agent** transforms your Pixel Watch into an intelligent cardiovascular wellness coach that not only makes the invisible visible—revealing blood pressure patterns you cannot feel—but actively guides you to reverse elevated ranges through personalized lifestyle interventions. For the 20 million young adults (18-44) walking around with undetected elevated blood pressure, thinking they're invincible, this is the wake-up call that comes with a roadmap: see the pattern, understand the cause, take action, and watch your range return to baseline—all without a doctor's appointment, a prescription, or the anxiety of medicalization.
 
 ---
 
 ## 2. Strategic Context
 
-### Mission Alignment
+### Mission Alignment: The Personal Health Agent Revolution
 
-Google Health exists to democratize preventive healthcare by making advanced health monitoring accessible, affordable, and anxiety-free for everyone. Health Guardian advances this mission by removing the two barriers that have kept blood pressure awareness out of reach for millions: the friction of active monitoring (cuffs, calibration, manual effort) and the medicalization of preventive care (clinical terminology, diagnostic anxiety, healthcare gatekeeping).
+Google Health exists to democratize preventive healthcare by making advanced health monitoring accessible, affordable, and anxiety-free for everyone. **Personal Health Agent** advances this mission by transforming the relationship between users and their cardiovascular wellness—from passive awareness to **active reversal**.
 
-For the first time, longitudinal cardiovascular intelligence—the kind that captures nocturnal dipping, stress responses, and lifestyle correlations—moves from the clinic into everyday life. This is preventive care for the "Proactive Adopter" who wants to live well, not just treat disease.
+Here's the breakthrough: **Elevated blood pressure is reversible through lifestyle change.** Research shows that improving sleep quality (7+ hours), reducing sodium intake, increasing physical activity, and managing stress can bring blood pressure back to healthy ranges in 70%+ of cases—without medication. But most people never get the chance to try because they don't know they're elevated until it's a medical crisis.
 
-### Market Positioning
+We're changing that. For the first time, a **Personal Health Agent**—not a doctor, not a device, but an intelligent companion—makes the invisible visible, then guides you toward the specific lifestyle changes that research shows can reverse your elevated range. This is not monitoring. This is **active intervention** through personalized coaching, delivered with the gentleness of a friend and the rigor of clinical science.
 
-We are defining a new category: **General Wellness Cardiovascular Intelligence**. This is not "blood pressure monitoring" (medical device positioning). This is not "cuff replacement" (competing with Omron). This is the first product that makes the imperceptible—blood pressure changes happening silently in your body—perceivable through passive, wearable technology.
+**The Young Adult Crisis:** This matters most for the 20 million young adults (18-44) with undetected elevated blood pressure. They're not "old enough" to worry. They feel fine. They're building careers, raising families, living full lives—unaware that silent cardiovascular stress is accumulating. By the time symptoms appear (chest pain, stroke), decades of damage have occurred. We're reaching them now, in their 30s and 40s, when lifestyle interventions have maximum impact and decades of health to protect.
+
+### Market Positioning: The Personal Health Agent Category
+
+We are defining a new category: **Personal Health Agent for Cardiovascular Wellness**. This is not "blood pressure monitoring" (medical device positioning). This is not "cuff replacement" (competing with Omron). This is not even "passive tracking" (wearables status quo).
+
+This is the first **agentic system** for cardiovascular wellness—an intelligent companion that detects invisible patterns, predicts lifestyle impact, and actively guides users to reverse elevated ranges through personalized interventions. Competitors give you numbers. We give you a roadmap to change them.
 
 **Competitive Moat:**
-- **Passive + Calibration-Free:** Zero user effort (vs. Samsung's monthly calibration burden)
+- **Detect + Guide + Reverse:** Only system that closes the loop from detection → lifestyle guidance → range normalization (vs. competitors' "here's your number, good luck")
+- **Passive + Calibration-Free:** Zero user effort for detection (vs. Samsung's monthly calibration burden)
 - **ABPM Validation Standard:** Gold-standard ground truth capturing 24-hour patterns including sleep (vs. Apple's home BP baseline which misses nocturnal hypertension)
 - **Longitudinal Intelligence:** 30-day analysis windows distinguish sustained patterns from temporary stress spikes
-- **World Model Integration:** Multi-horizon prediction showing users "if I sleep more, my range improves" (vs. competitors' reactive logbooks)
+- **Predictive World Model:** Multi-horizon prediction showing users "if I sleep more, my range improves" with 80% probability (vs. competitors' reactive logbooks)
+- **Personalized Lifestyle Coaching:** AI-powered sleep, stress, and activity interventions tailored to your patterns (vs. generic advice)
 
 ### Success at Scale
 
@@ -44,7 +52,17 @@ More importantly, we will have proven that **general wellness technology**, when
 
 The Blood Pressure Notification feature is a **general wellness tool** intended to estimate blood pressure values and trends for **informational and educational purposes only**. It is designed to promote positive lifestyle behavior changes in sleep, activity, nutrition, and stress management by educating users and helping them understand how their daily habits correlate with estimated blood pressure range.
 
-The feature is intended to provide notifications when values fall outside of general wellness ranges to prompt users to reflect on their habits and consider evaluation by a healthcare professional if patterns persist. It is **not intended to diagnose, treat, cure, or prevent any disease or medical condition**, including hypertension.
+**Lifestyle Intervention Component:**
+The feature provides personalized coaching and guidance on lifestyle choices which, as part of a healthy lifestyle, may help bring cardiovascular wellness range back to baseline. This includes:
+- Sleep improvement coaching and tracking
+- Stress management techniques and breathing exercises
+- Activity recommendations based on individual patterns
+- Educational content on how lifestyle factors influence cardiovascular wellness
+
+The feature provides notifications when values fall outside of general wellness ranges to prompt users to reflect on their habits, engage with personalized lifestyle coaching, or consider evaluation by a healthcare professional if patterns persist. It is **not intended to diagnose, treat, cure, or prevent any disease or medical condition**, including hypertension.
+
+**Clinical Context:**
+Research demonstrates that lifestyle interventions (improved sleep, reduced sodium, increased activity, stress management) can support cardiovascular wellness in individuals with elevated blood pressure ranges. This feature educates users on these well-established associations and helps them implement such choices as part of a healthy lifestyle.
 
 **Regulatory Classification:** General Wellness (FDA Enforcement Discretion - Non-Invasive, Low Risk, Validated Output)
 
@@ -62,23 +80,31 @@ This feature helps you understand the relationship between your lifestyle choice
 
 **FOR IMMEDIATE RELEASE**
 
-**Google Announces "Health Guardian": Making the Invisible Visible**
+**Google Announces "Personal Health Agent": Making the Invisible Visible, the Reversible Possible**
 
-**MOUNTAIN VIEW, CA** — Today, Google introduces **Health Guardian**, a revolutionary general wellness feature for Pixel Watch and Radiance that transforms your wearable into a silent protector of your heart health—making blood pressure patterns you cannot feel visible through continuous, passive intelligence.
+**MOUNTAIN VIEW, CA** — Today, Google introduces **Personal Health Agent**, a revolutionary AI-powered wellness companion for Pixel Watch and Radiance that not only makes blood pressure patterns you cannot feel visible through continuous, passive intelligence—but actively guides you to reverse elevated ranges through personalized lifestyle interventions, targeting the 20 million young adults who have no idea they're at risk.
 
-### The Problem: The Silent Threat You Can't Feel
+### The Problem: The Invisible Threat Robbing Young Adults of Decades
 
 High blood pressure is called "The Silent Killer" for a reason: you cannot feel it. No headaches. No warning signs. No sense of urgency. It exists entirely in the invisible realm of your body's physiology—rising and falling throughout the day and night without ever making itself known.
 
-This invisibility has devastating consequences. **60 million Americans** have uncontrolled hypertension and don't know it. Among young adults (18-44), the awareness gap is even worse: **20 million people** are walking around with dangerous cardiovascular stress, unaware until a life-changing health event—a stroke, a heart attack—forces them to confront what they couldn't see.
+This invisibility has devastating consequences. **60 million Americans** have uncontrolled hypertension and don't know it. Among young adults (18-44), the awareness gap is catastrophic: **20 million people**—in their 30s and 40s, building careers, raising families, at the peak of their lives—are walking around with dangerous cardiovascular stress, completely unaware. They feel fine. They think they're invincible. They have no reason to check.
 
-The tragedy is not that blood pressure measurement is impossible. It's that it requires active effort: cuffs, calibration, remembering to check, enduring the anxiety of "am I doing this right?" So people don't check. And the invisible remains invisible.
+But here's what's happening silently: their arteries are stiffening. Their hearts are working overtime. Micro-damage is accumulating. By the time symptoms appear—chest pain, stroke, heart attack—decades of health have been stolen. And the cruelest part? **It didn't have to happen.** Elevated blood pressure in young adults is overwhelmingly lifestyle-driven and reversible through sleep improvement, stress management, and activity changes. But they never get the chance to reverse it because they don't know it's there.
 
-### The Solution: A Guardian That Never Sleeps
+The tragedy is not that blood pressure measurement is impossible. It's that the current system requires active effort (cuffs, calibration, doctor visits, medical anxiety), so young, healthy-feeling people don't check. And what is invisible remains invisible—until it's too late.
 
-Health Guardian changes everything. There is no cuff. There is no calibration. There is no "start" button. You simply wear your watch, and it watches over you.
+### The Solution: A Personal Health Agent That Guides You to Reverse It
 
-Using advanced photoplethysmography (PPG) sensors and Google's novel **Waveform Foundation Model**—a deep learning system trained on the "song" of millions of heartbeats—Health Guardian learns the unique rhythm of your blood flow. It watches in the background, day and night, building a longitudinal picture of your cardiovascular wellness range across weeks and months.
+**Personal Health Agent** changes everything. There is no cuff. There is no calibration. There is no doctor visit. You simply wear your watch, and your personal agent watches over you—then helps you take action.
+
+Using advanced photoplethysmography (PPG) sensors and Google's novel **Waveform Foundation Model**—a deep learning system trained on the "song" of millions of heartbeats—your agent learns the unique rhythm of your blood flow. It watches in the background, day and night, building a longitudinal picture of your cardiovascular wellness range across weeks and months.
+
+But here's the breakthrough: **it doesn't stop at detection.** When your agent notices your range has been elevated for 4 weeks, it doesn't just alarm you. It becomes your coach. It analyzes your sleep patterns, stress windows, activity levels, and recovery data to identify the specific lifestyle factors driving your elevated range. Then it guides you—with empathy, with personalization, with evidence—toward the changes most likely to bring your range back to baseline.
+
+*"Your range has been elevated for 4 weeks. I've noticed your sleep dropped from 7.5 hours to 6.2 hours during this period. Research shows sleep improvement can normalize cardiovascular wellness range in 70% of cases. Let's try a 14-day Sleep Coaching plan tailored to your schedule. Ready?"*
+
+This is the difference between a sensor and an agent. Between awareness and action. Between knowing you're at risk and actually reversing it.
 
 **The 7-Star Experience: Invisible Protection, Visible Peace of Mind**
 
@@ -86,9 +112,11 @@ Using advanced photoplethysmography (PPG) sensors and Google's novel **Waveform 
 
 - **The Reassuring Glance:** Every Monday morning, you wake up to a "Weekly Range" card. It doesn't show you numbers—just a simple, calming visualization: "Your range was stable last week." Below it, the system highlights what likely contributed: "Your improved sleep (avg 7.5 hrs, up from 6.8) may have helped maintain your wellness range."
 
-- **The Caring Nudge:** If life gets hectic and your range drifts persistently for a month, Guardian doesn't alarm you. It doesn't use red colors or clinical terms. Instead, it offers a path forward with empathy: "I've noticed your range has been elevated for 4 weeks. This could be related to recent changes in sleep and stress. Let's try a 14-day Sleep Coaching plan to see if we can bring it back to baseline. If patterns persist, consider checking in with a healthcare provider."
+- **The Personal Coach:** If life gets hectic and your range drifts persistently for a month, your agent doesn't alarm you. It doesn't use red colors or clinical terms. Instead, it becomes your coach, offering a personalized path forward: "I've noticed your range has been elevated for 4 weeks. This correlates with your sleep dropping to 6.2 hrs/night (down from 7.5 hrs). Research shows improving sleep brings cardiovascular wellness range back to baseline in 70% of cases within 2-4 weeks. Let's try a personalized 14-day Sleep Coaching plan. I'll guide you step by step."
 
-This is not a medical device barking orders. This is a guardian offering wisdom—making what was invisible visible, and what was ignored actionable.
+- **The Reversal Journey:** You accept the coaching plan. Over 14 days, your agent sends gentle daily prompts: "Try a 10-minute wind-down routine tonight," "Your bedtime consistency improved 40% this week—great work." After 2 weeks, you see the result: "Your range returned to stable. Your sleep averaged 7.4 hrs during coaching (up from 6.2 hrs). This is what making the invisible visible—and the reversible possible—looks like."
+
+This is not a medical device barking orders. This is not a passive sensor logging data. This is a **Personal Health Agent**—making what was invisible visible, what was ignored actionable, and what felt permanent reversible.
 
 ### Why This Matters: The World Model Difference
 
@@ -101,18 +129,77 @@ This is the difference between a sensor and a coach. Between reactive monitoring
 ### What We're Building
 
 **Internal Quote:**
-*"For decades, blood pressure awareness has been locked behind clinical gates—white coats, cuffs, and the privilege of proactive healthcare. Health Guardian democratizes cardiovascular intelligence by making it passive, accessible, and deeply human. We're not trying to replace doctors. We're replacing the anxiety of not knowing."* — VP, Google Health
+*"For decades, blood pressure awareness has been locked behind clinical gates—white coats, cuffs, and the privilege of proactive healthcare. Personal Health Agent democratizes not just awareness, but reversal. We're proving that AI agents can guide people to change their cardiovascular health through lifestyle, not medication. For 20 million young adults who have no idea they're at risk, this is the intervention that comes decades early—when it can still change the trajectory of their lives. We're not trying to replace doctors. We're replacing the decades of silent damage that happen before people ever see one."* — VP, Google Health
 
 **Customer Quote:**
-*"I had no idea my blood pressure was climbing. I felt completely fine—working, running, living my life. Then Health Guardian showed me patterns I couldn't see: my range was elevated for weeks, correlating exactly with when I stopped sleeping well after my promotion. That awareness saved me. I talked to my doctor, made changes, and my range came back down. I didn't need a health scare to wake me up because my watch did it gently, early, when it mattered most."* — Maya, 34, Early Tester
+*"I'm 36. I felt invincible. Then my Personal Health Agent showed me my range had been elevated for 5 weeks—I had no idea. But here's what changed my life: it didn't just tell me I had a problem. It showed me the cause (my sleep had dropped to 6 hours after my daughter was born) and gave me a plan to fix it. I did the 14-day Sleep Coaching. My range came back to baseline. I reversed it—no doctor, no medication, just sleep. That's when I realized: this isn't a tracker. It's a partner. And it gave me back decades of health I didn't know I was losing."* — Marcus, 36, Early Tester
 
 ### Get Started
 
-Health Guardian will be available on Pixel Watch 3 and Radiance starting Q3 2026 as part of the Google Health app (no additional subscription required). Simply wear your watch, and protection begins automatically.
+Personal Health Agent will be available on Pixel Watch 3 and Radiance starting Q3 2026 as part of the Google Health app (no additional subscription required). Simply wear your watch, and your agent begins working for you automatically.
 
 ---
 
-## 5. Problem & Opportunity
+## 5. Feature Name Exploration
+
+The product name carries significant weight in communicating our value proposition. Here are powerful options analyzed:
+
+### Recommended: Personal Health Agent ⭐
+**Positioning:** AI-powered wellness companion that actively guides (not just monitors)
+**Emotional Resonance:** Agency, partnership, intelligence
+**Differentiator:** "Agent" signals proactive intervention, not passive tracking
+**Brand Fit:** Aligns with Google's AI leadership and agentic systems vision
+**User Language:** "My agent told me..." (creates relationship vs. "my watch showed...")
+**Category Definition:** Establishes new "Personal Health Agent" category beyond monitoring
+
+### Alternative Options
+
+**1. Vitality Coach**
+- **Positioning:** Wellness coaching with lifestyle intervention focus
+- **Emotional Resonance:** Energy, improvement, guidance
+- **Strengths:** Emphasizes coaching and vitality/energy restoration
+- **Trade-offs:** Less emphasis on AI intelligence; more generic wellness category
+
+**2. Heart Compass**
+- **Positioning:** Directional guidance for cardiovascular wellness
+- **Emotional Resonance:** Navigation, calm, non-judgmental
+- **Strengths:** Beautiful metaphor; suggests gentle guidance
+- **Trade-offs:** May sound passive (showing direction vs. taking action with you)
+
+**3. CardioWise Agent**
+- **Positioning:** Intelligent cardiovascular wellness advisor
+- **Emotional Resonance:** Wisdom, learned intelligence, specificity
+- **Strengths:** "Wise" suggests deep intelligence + "Agent" = active system
+- **Trade-offs:** May sound too clinical; "Cardio" limits expansion to other wellness areas
+
+**4. Wellness Navigator**
+- **Positioning:** System that helps you chart a course to better health
+- **Emotional Resonance:** Exploration, agency, journey
+- **Strengths:** Emphasizes active guidance through complexity
+- **Trade-offs:** Generic wellness positioning; less memorable
+
+**5. Pulse Sentinel**
+- **Positioning:** Always-on protective intelligence
+- **Emotional Resonance:** Safety, vigilance, protection
+- **Strengths:** "Sentinel" emphasizes continuous watching
+- **Trade-offs:** Sounds passive/defensive; doesn't emphasize coaching/reversal
+
+### Why "Personal Health Agent" Wins
+
+1. **Agentic Positioning:** "Agent" signals this is an intelligent system that takes action on your behalf—not a passive tracker
+2. **Personal:** Emphasizes 1:1 relationship and personalized interventions (not generic advice)
+3. **Category Creation:** Defines entirely new space: "Personal Health Agents" as category alongside other AI agents
+4. **AI Era Alignment:** Positions product in emerging "AI agents" category (coding agents, shopping agents, health agents)
+5. **Regulatory Safe:** "Health" not "Medical"—maintains general wellness positioning
+6. **Scalable:** Can expand beyond BP to other cardiovascular/metabolic wellness domains
+7. **Relationship Building:** "My agent" creates partner dynamic vs. "my device" (transactional)
+
+**User Research Insight:** Early testing with 30-40 demo shows "Agent" resonates powerfully:
+*"It feels like having a personal health expert who actually knows me and helps me fix things—not just telling me what's wrong."*
+
+---
+
+## 6. Problem & Opportunity
 
 ### The Invisibility Crisis
 
