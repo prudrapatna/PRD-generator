@@ -16,7 +16,7 @@
 
 ## Product Context
 - **overview**: `knowledge/product/overview.md` - Product description, key features
-- **competitive**: `knowledge/product/competitive.md` - Competitor analysis, differentiation
+- **competitive**: `knowledge/target_performance/competitor_analysis.md` - Competitor analysis, differentiation
 - **tech-stack**: `knowledge/product/tech-stack.md` - Technical constraints, architecture
 
 ## Regulatory Context
@@ -25,13 +25,13 @@
 - **indications**: `knowledge/regulatory/indications.md` - Intended use, contraindications
 
 ## User Research
-- **personas**: `knowledge/user-research/personas.md` - Target user profiles and behaviors
-- **pain-points**: `knowledge/user-research/pain-points.md` - User problems and frustrations
-- **insights**: `knowledge/user-research/insights.md` - Research findings and key insights
+- **personas**: `knowledge/user_research/proactive_adopter_profile.md` - Target user profiles and behaviors
+- **pain-points**: `knowledge/user_research/hypertension_problem_definition.md` - User problems and frustrations
+- **insights**: `knowledge/user_research/insights.md` - Research findings and key insights
 
 ## Validation Data
-- **performance**: `knowledge/validation/current-performance.md` - Current performance metrics
-- **validation-plan**: `knowledge/validation/validation-plan.md` - Clinical study design, timeline
+- **performance**: `knowledge/algorithm_overview_and_target_performance/algorithm_overview_and_target_performance.md` - Current performance metrics
+- **validation-plan**: `knowledge/target_performance/target_performance.md` - Clinical study design, timeline
 - **clinical-evidence**: `knowledge/validation/clinical-evidence.md` - Supporting research and literature
 
 ## Custom Context

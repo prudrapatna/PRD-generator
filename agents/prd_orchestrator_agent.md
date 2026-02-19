@@ -188,8 +188,17 @@ Use these templates when transitioning between sections:
 8. **Invoke cuj-generator-skill** with narrative metaphor + health outcomes
 9. **Invoke acceptance-criteria-skill** with CUJ output + health outcomes
 10. **Generate Success Metrics** (Orchestrator direct - synthesizes all outputs)
+11. **Create Google Workspace Document** (Orchestrator direct - uses `docs.create` tool)
 
 **CRITICAL:** Skills must execute **sequentially**, not in parallel, because each depends on context from previous sections.
+
+## Google Workspace Integration (NEW)
+After the full PRD is generated and validated, you MUST:
+1.  **Format for Google Docs:** Ensure the Markdown is clean and professional.
+2.  **Create Document:** Use the `docs.create` tool with:
+    - `title`: "PRD: [Product Name] - [Date]"
+    - `markdown`: The complete, validated PRD content.
+3.  **Provide Link:** Display the resulting Google Doc link prominently to the user.
 
 ## Product Design Constraints
 * **Passive Sensing:** The watch is a "dumb" pipe; the Mobile App is the "Brain." 
