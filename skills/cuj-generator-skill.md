@@ -39,7 +39,7 @@ When asked to generate a CUJ, you **MUST** use the following structured format.
 
 ### Part A: CUJ Header
 *   **Target User:** [Role/Persona] (e.g., "Small Business Owner," "Anxious Patient"). *Who are we solving for?*
-    *   **Context Source:** You **MUST** refer to `/Users/prudrapatna/Development/Chief of Staff/user_research` and `/Users/prudrapatna/Development/Chief of Staff/strategy/strategy_details.md` to ground the persona in real data.
+    *   **Context Source:** You **MUST** refer to `/Users/pramodrudrapatna/development/PRD-generator/knowledge/user_research` and `/Users/pramodrudrapatna/development/PRD-generator/knowledge/strategy/strategy_details.md` to ground the persona in real data.
 *   **Critical Goal:** [I want to...] (The user's voice).
 *   **Context:** [When/Where] (e.g., "During monthly planning," "After a medical diagnosis").
 

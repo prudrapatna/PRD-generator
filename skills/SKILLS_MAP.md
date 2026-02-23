@@ -3,7 +3,7 @@
 This map provides a visual overview of the available agent skills and their primary purposes.
 
 ```
-/Users/prudrapatna/Development/Chief of Staff/skills/
+/Users/pramodrudrapatna/development/PRD-generator/skills/
 ├── acceptance-criteria-skill.md    [ARCHITECT]
 │   └── Purpose: Generate rigorous, engineering-ready specs (Gherkin syntax).
 │
