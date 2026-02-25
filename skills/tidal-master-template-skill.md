@@ -1,7 +1,7 @@
 ---
 name: tidal-master-template-skill
 description: Strictly enforces the "Tidal" PRD structure: Metadata, Approvals, PR, Overview, Grid-based Product Profile, 9-Point Positioning Table, CUJ Grid, Algorithm Performance, Disclaimers, and Change Log.
-version: 1.4.0
+version: 1.5.0
 ---
 
 # Tidal Master Template Skill
@@ -16,7 +16,8 @@ This skill ensures the agent produces a PRD that is structurally identical to th
 *   **Approval Matrix:** **[REQUIRED: TABLE]** with Role, Approver, Date, and Status (Approved/Pending).
 
 ### 1. The Press Release (PR)
-*   **Format:** **[REQUIRED: NARRATIVE]**
+*   **Format:** **[REQUIRED: NARRATIVE — ENCLOSED IN A FULL BORDER BOX]**
+*   **DOCX Formatting:** The entire PR section — from the title through the closing paragraph — MUST be placed inside a single-cell table with a visible border on all four sides (top, bottom, left, right). This creates the "boxed press release" look. The border should be 1–1.5pt, solid black. Do NOT use a plain paragraph block; use a bordered single-cell table to contain all PR content.
 *   **Header 1 (Title):** The program name (e.g., "Blood Pressure Trends").
 *   **Header 2 (Subtitle):** "Google’s Personal Health Assistant Is Learning to Spot — and May Help Reverse — [Program Name] Trends".
 *   **Dateline:** "[Month Day, Year]:" (e.g., "August 16th, 2026:").
@@ -49,7 +50,13 @@ This skill ensures the agent produces a PRD that is structurally identical to th
     *   Country Availability
 
 ### 4. Market Positioning: The Personal Health Assistant (9 Things Table)
-*   **Format:** **[REQUIRED: TABLE]** A table with Item, Title, and Description for exactly 9 points.
+*   **Format:** **[REQUIRED: 2-COLUMN TABLE]** — Do NOT use a 3-column table. Exactly 9 rows, one per point.
+*   **Column 1 — "Number + Tagline" (narrow, ~1.5 inches):**
+    *   Line 1: The number only (1, 2, 3… 9) in a **large font (20–24pt), bold, blue (#4285F4 or Google Blue)**.
+    *   Line 2 onward: The short tagline/title in **smaller font (10–11pt), bold, blue**, on a new line beneath the number. Example: `1\nBlood Pressure\nTrends on PHA`.
+    *   The number and tagline are stacked vertically inside the same cell — they are NOT in separate columns.
+*   **Column 2 — "Description" (wide, ~5 inches):** The full explanatory paragraph(s) for that point. Normal body font, black text.
+*   **Row Borders:** Each row must have a visible horizontal border line separating it from the next row. All four outer edges of the table must have a visible border. No shading or fill color.
 *   **Points:** 1. Program on PHA, 2. Significance, 3. First-of-its-kind Agent/Feature, 4. How it works, 5. Rigorous Testing/Validation, 6. AI Architecture/ML, 7. Launch Markets, 8. Peace of Mind/Ecosystem, 9. Partners.
 
 ### 5. CUJs (The Action Grid)

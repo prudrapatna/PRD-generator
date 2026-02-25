@@ -20,10 +20,20 @@ Autonomous Product Development Agent configuration and management.
 *   **Methodology Enforcement:** Operationalize the "Working Backwards" approach to ensure customer-centricity.
 
 ## 4. Key Features
-*   **Automated PRD Generation:** The `feature-spec-skill` orchestrates the creation of comprehensive specs.
-*   **Visionary Narratives:** The `product-narrative-skill` generates compelling, "Jobsian" press releases.
-*   **Rigorous Acceptance Criteria:** The `acceptance-criteria-skill` produces Gherkin-style verification steps.
-*   **User Journey Visualization:** The `visualization-skill` (and Python scripts) generate UI concepts.
+
+### Two PRD Modes (via `prd-agent-skill.md`)
+*   **Full PRD (default):** Comprehensive spec with PR, Overview, Target Product Profile, 9 Things, CUJ Maps, Algorithm Performance, Acceptance Criteria (Gherkin), Feature Logic, and Appendix.
+*   **Mini Product Narrative:** Condensed one-pager with PR, Overview, Target Product Profile, 9 Things, and Summary/Next Steps. Triggered by "mini PRD," "mini product overview," "short PRD," or "product narrative."
+
+### Shared Across Both Modes
+*   **Press Release First:** Every document opens with a "Working Backwards" PR enclosed in a bordered box — via `product-narrative-skill.md`.
+*   **9 Things Table:** 2-column format with stacked number + tagline in the left cell — via `marketing-skill.md` + `tidal-master-template-skill.md`.
+*   **Product Grid:** Full Target Product Profile table — via `tidal-master-template-skill.md`.
+
+### Full PRD Only
+*   **CUJ Maps:** 4+ Critical User Journeys — via `cuj-generator-skill.md`.
+*   **Acceptance Criteria:** Gherkin-syntax specs for Engineering and QA — via `acceptance-criteria-skill.md`.
+*   **Algorithm Validation:** Performance targets and study results grid.
 *   **Compliance Guardrails:** Built-in checks against FDA General Wellness guidelines to ensure safety.
 
 ## 5. Constraints & Non-Functional Requirements
