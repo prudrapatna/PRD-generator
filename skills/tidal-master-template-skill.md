@@ -1,25 +1,37 @@
 ---
 name: tidal-master-template-skill
-description: Strictly enforces the "Tidal" PRD structure: PR, Overview, Grid-based Product Profile, 9-Point Positioning Table, CUJ Grid, Algorithm Performance, and Program Timeline.
-version: 1.1.0
+description: Strictly enforces the "Tidal" PRD structure: Metadata, Approvals, PR, Overview, Grid-based Product Profile, 9-Point Positioning Table, CUJ Grid, Algorithm Performance, Disclaimers, and Change Log.
+version: 1.4.0
 ---
 
 # Tidal Master Template Skill
 
 ## Capability
-This skill ensures the agent produces a PRD that is structurally identical to the "Blood Pressure Trends" document. It prioritizes data-dense tables and journalistic storytelling.
+This skill ensures the agent produces a PRD that is structurally identical to the "Blood Pressure Trends" and "Project Salus" documents. It prioritizes data-dense tables, journalistic storytelling, and rigorous document control (Metadata, Approvals, Change Log).
 
 ## Instructions: The Exact Sequence
 
+### 0. Project Metadata & Approvals
+*   **Metadata:** List Deliverable, Resources, Localization, and Lock Dates.
+*   **Approval Matrix:** **[REQUIRED: TABLE]** with Role, Approver, Date, and Status (Approved/Pending).
+
 ### 1. The Press Release (PR)
-*   **Format:** Dated ("October 2026"), bold headline, journalistic body text.
-*   **Quotes:** Must include a Visionary quote from "Rishi Chandra (VP Google Health)" and a Clinical quote from "Dr. Stephen Juraschek."
+*   **Format:** **[REQUIRED: NARRATIVE]**
+*   **Header 1 (Title):** The program name (e.g., "Blood Pressure Trends").
+*   **Header 2 (Subtitle):** "Google’s Personal Health Assistant Is Learning to Spot — and May Help Reverse — [Program Name] Trends".
+*   **Dateline:** "[Month Day, Year]:" (e.g., "August 16th, 2026:").
+*   **Body Content (Paragraph 1):** Focus on the "Invisible" or "Silent" nature of the health signal and why users miss it.
+*   **Body Content (Paragraph 2):** Introduce "[Program Name], a new wellness feature for Pixel Watch and Fitbit devices." Emphasize "no behavior change required."
+*   **Body Content (Paragraph 3):** Describe the "Quiet Approach" (e.g., "Most months, users won’t hear from it...").
+*   **Quote 1:** Visionary quote from "Rishi Chandra (VP Google Health)" or relevant executive.
+*   **Quote 2:** Clinical quote from a relevant subject matter expert (e.g., endocrinologist for IR, cardiologist for BP).
+*   **Closing:** Explicitly state the feature is "designed to start conversations, not replace care" and mention "one thoughtful insight a month."
 
 ### 2. Overview
-*   **Content:** Summary of the problem, the market urgency (referencing conjoint data), and the proposed solution.
+*   **Content:** **[REQUIRED: NARRATIVE]** Summary of the problem, referencing conjoint/UXR data. Highlight that the signal is asymptomatic and users lack urgency.
 
 ### 3. Target Product Profile (The Master Grid)
-*   **Format:** A single "Category | Definition" table.
+*   **Format:** **[REQUIRED: TABLE]** A single "Category | Definition" table.
 *   **Rows:**
     *   Intended Use Statement
     *   Disclaimer
@@ -27,7 +39,7 @@ This skill ensures the agent produces a PRD that is structurally identical to th
     *   Product Overview (P0/P1)
     *   Product Output (P0/P1)
     *   Positioning (The "North Star")
-    *   Product Type (e.g., Passive, Recurring)
+    *   Product Type
     *   Assessment Period (Window, Data Sufficiency, Threshold Logic)
     *   Regulated or Wellness?
     *   Target Segment
@@ -36,23 +48,26 @@ This skill ensures the agent produces a PRD that is structurally identical to th
     *   Supported Devices
     *   Country Availability
 
-### 4. Market Positioning: The 9 Things (Table)
-*   **Format:** An "Item | Description" table with exactly 9 points.
-*   **Points:** 1. Program on PHA, 2. Significance, 3. First-of-its-kind Agent, 4. How it works, 5. Rigorous Testing, 6. AI Architecture, 7. Launch Markets, 8. Peace of Mind, 9. Partners.
+### 4. Market Positioning: The Personal Health Assistant (9 Things Table)
+*   **Format:** **[REQUIRED: TABLE]** A table with Item, Title, and Description for exactly 9 points.
+*   **Points:** 1. Program on PHA, 2. Significance, 3. First-of-its-kind Agent/Feature, 4. How it works, 5. Rigorous Testing/Validation, 6. AI Architecture/ML, 7. Launch Markets, 8. Peace of Mind/Ecosystem, 9. Partners.
 
 ### 5. CUJs (The Action Grid)
-*   **Format:** A 3-column table: **Goal (The "Why")** | **Task (The "How")** | **Product CUI**.
+*   **Format:** **[REQUIRED: TABLE]** A 3-column table: **Goal (The "Why")** | **Task (The "How")** | **Product CUI**.
 
 ### 6. Algorithm Target Performance (The Metric Grid)
-*   **Format:** A table: **Metric | Target (low 95% CI) | Rationale**.
-*   **Followed by:** A "Current Performance" table comparing Study Size vs. Sensitivity/Specificity results.
+*   **Format:** **[REQUIRED: TABLE]** A table: **Metric | Target (low 95% CI) | Rationale**.
+*   **Followed by:** **[REQUIRED: TABLE]** A "Current Performance" table comparing Study Size vs. Sensitivity/Specificity results.
 
 ### 7. Feature Logic & Program Timeline
-*   **Format:** Table of Constants (MIN_WEAR_HOURS, etc.) followed by a bulleted Program Timeline.
+*   **Format:** **[REQUIRED: TABLE]** Table of Constants followed by a **[REQUIRED: BULLETED LIST]** Program Timeline.
 
-### 8. Appendix
-*   **Content:** Consumer Interest data (WTP from conjoint reports) and Competitive Benchmarks.
+### 8. Appendix, Disclaimers & Change Log
+*   **Consumer Interest:** **[REQUIRED: NARRATIVE/BULLETED]** WTP and preference data.
+*   **Disclaimers:** **[REQUIRED: NARRATIVE]** US and EMEA specific regulatory disclaimers.
+*   **Change Log:** **[REQUIRED: TABLE]** Tracking Date, Section, Old Copy, and New Copy.
 
 ## Style Rules
-*   **No "Monitoring":** Use "Detect," "Spot," "Patterns," and "Awareness."
-*   **Grounded in Knowledge:** Always pull specific % and WTP $ values from the `knowledge/user_research/` files.
+*   **Structural Fidelity:** NEVER substitute a table for a list or vice versa.
+*   **Vocabulary:** NEVER use "Monitoring" or "Diagnosing" for wellness features. Use "Detect," "Spot," "Patterns," and "Awareness."
+*   **Grounded in Knowledge:** Always pull specific % and WTP $ values from `knowledge/user_research/`.
