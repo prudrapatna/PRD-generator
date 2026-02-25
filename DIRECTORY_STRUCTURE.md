@@ -12,8 +12,8 @@
 ## /knowledge (Strategic Context & Research)
 *   `strategy/`: High-level business strategy documents (`strategy_details.md`).
 *   `user_research/`: Raw research, personas (`proactive_adopter_profile.md`), and synthesis (`hypertension_problem_definition.md`).
-*   `target_performance/`: Benchmark data (`apple_hypertension_validation.pdf`) and competitive analysis (`competitor_analysis.md`).
-*   `algorithm_overview_and_target_performance/`: Technical details on the sensing algorithms (`algorithm_overview.md`).
+*   `Tidal/`: Tidal Blood Pressure specifics (Performance, Algorithm).
+*   `insulin resistance/`: Research and PRD materials for metabolic health.
 *   `Additional Context.md`: Definitions, tone guidelines, and sample context.
 
 ## /product_specs

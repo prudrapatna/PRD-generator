@@ -13,7 +13,7 @@ It synthesizes visionary product thinking (Jobs/Chesky/Musk) with rigorous techn
 To unleash the full potential of the Chief of Staff agent, you **MUST** provide the following four key inputs. The quality of the output PRD is directly proportional to the quality of these inputs.
 
 ### 1. User Research (The "Why")
-*   **Location:** `/user_research`
+*   **Location:** `knowledge/user_research`
 *   **Required Content:**
     *   **Detailed Personas:** Who are we building for? (e.g., "Proactive Adopters," "Data Skeptics").
     *   **Pain Points:** What keeps them up at night? (e.g., "Anxiety about medical devices," "Motivation barriers").
@@ -21,7 +21,7 @@ To unleash the full potential of the Chief of Staff agent, you **MUST** provide 
 *   **Why:** The agent uses this to challenge assumptions and ensure the product solves a *real* human problem, not just a technical one.
 
 ### 2. Algorithm Overview & Target Performance (The "Reality")
-*   **Location:** `/algorithm_overview_and_target_performance`
+*   **Location:** `knowledge/<ProgramName>/Algorithm Overview`
 *   **Required Content:**
     *   **Capabilities:** What can the technology actually do? (e.g., "Passive PPG sensing").
     *   **Constraints:** What are the limitations? (e.g., "Requires 14 days of wear," "Must input height").
@@ -29,7 +29,7 @@ To unleash the full potential of the Chief of Staff agent, you **MUST** provide 
 *   **Why:** The agent reads this to ensure the PRD is *feasible*. It prevents hallucinating "magic" features that the algorithm cannot support (e.g., "Instant BP reading without calibration").
 
 ### 3. Competitor Analysis (The "Benchmark")
-*   **Location:** `/product_specs/target_performance`
+*   **Location:** `knowledge/<ProgramName>/target_performance`
 *   **Required Content:**
     *   **Competitor Data:** Performance metrics of key rivals (e.g., Apple Watch Hypertension Validation Paper).
     *   **Feature Gaps:** Where do they succeed? Where do they fail?
