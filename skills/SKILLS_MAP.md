@@ -22,6 +22,9 @@ This map provides a visual overview of the available agent skills and their prim
 ├── visualization-skill.md          [ILLUSTRATOR]
 │   └── Purpose: Generate visual diagrams (Architecture, CUJ Maps).
 │
+├── marketing-skill.md              [MARKETER]
+│   └── Purpose: Create high-impact GTM strategies and brand narratives.
+│
 ├── visual_gen.py                   [TOOL]
 │   └── Purpose: Python script for generating images via Gemini/Imagen.
 │
