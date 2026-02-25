@@ -7,8 +7,8 @@ This map provides a visual overview of the available agent skills and their prim
 ├── acceptance-criteria-skill.md    [ARCHITECT]
 │   └── Purpose: Generate rigorous, engineering-ready specs (Gherkin syntax).
 │
-├── prd-standard-skill.md           [MASTER]
-│   └── Purpose: The "Tidal" Format — Full, high-fidelity PRD generation.
+├── tidal-master-template-skill.md  [MASTER]
+│   └── Purpose: The "Tidal" Format — Exact grid-based PRD generation.
 │
 ├── cuj-generator-skill.md          [STRATEGIST]
 │   └── Purpose: Define Critical User Journeys (CUJs) and user-centric goals.
