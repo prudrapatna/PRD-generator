@@ -31,23 +31,23 @@ agents/prd_orchestrator_agent.md   [ORCHESTRATOR — START HERE]
 ## Full PRD Mode — Skill Chain
 
 ```
-Step 1: product-narrative-skill.md  [VISIONARY]     — PR tone, 7-Star, Working Backwards
-Step 2: marketing-skill.md          [MARKETER]      — 9 Things content + GTM positioning
-Step 3: tidal-master-template-skill.md [FORMATTER]  — Structure, borders, column rules
+Step 1: prd-standard-skill.md       [FULL SPEC]     — Exact structure and content rules for Full PRD
+Step 2: product-narrative-skill.md  [VISIONARY]     — PR tone, 7-Star, Working Backwards
+Step 3: marketing-skill.md          [MARKETER]      — 9 Things content + GTM positioning
 Step 4: cuj-generator-skill.md      [STRATEGIST]    — CUJ Maps (4+ journeys)
 Step 5: acceptance-criteria-skill.md [ARCHITECT]    — Gherkin AC, feature logic, NFRs
 ```
 
-**Full PRD Sections:**
-0. Metadata & Approvals
+**Full PRD Sections (Per prd-standard-skill.md):**
+0. Project Metadata & Approvals
 1. Press Release [PR] (border box)
 2. Overview
 3. Target Product Profile (Master Grid)
 4. Market Positioning: 9 Things (2-column table)
-5. Critical User Journeys (CUJ Maps)
+5. Critical User Journeys (CUJ Maps with Health & Metrics)
 6. Algorithm Target Performance
 7. Feature Logic & Program Timeline
-8. Acceptance Criteria (Gherkin)
+8. Acceptance Criteria (Gherkin AC + NFRs)
 9. Appendix, Disclaimers & Change Log
 
 ---
@@ -55,18 +55,20 @@ Step 5: acceptance-criteria-skill.md [ARCHITECT]    — Gherkin AC, feature logi
 ## Mini Product Narrative Mode — Skill Chain
 
 ```
-Step 1: product-narrative-skill.md  [VISIONARY]     — PR tone, 7-Star, Working Backwards
-Step 2: marketing-skill.md          [MARKETER]      — 9 Things content + GTM positioning
-Step 3: tidal-master-template-skill.md [FORMATTER]  — Structure, borders, column rules
-Step 4: prd-standard-skill.md       [MINI SPEC]     — Condensed structure + content rules
+Step 1: product-story-skill.md      [PRODUCT STORY] — Exact structure, format, and style rules
+Step 2: cuj-generator-skill.md      [STRATEGIST]    — Used to generate CUJs, then condense to the 3-column table
 ```
 
-**Mini PRD Sections:**
-1. Press Release [PR] (border box)
-2. Overview (2–3 paragraphs)
-3. Target Product Profile (Master Grid)
-4. Market Positioning: 9 Things (2-column table)
-5. Summary: What's Next (bullets)
+**Mini PRD Sections (Per product-story-skill.md):**
+1. Approval Cover Page
+2. The Press Release / Narrative (border box)
+3. Overview (problem space)
+4. Target Product Profile (Master Grid)
+5. Market Positioning: 9 Things (2-column table)
+6. Critical User Journeys (CUJs - 3 columns: Goal | Task | Product CUI)
+7. Feature Logic Definitions & Algorithm Performance
+8. Evaluation Questions for Ask Health
+9. Appendix (Consumer Interest, US/EU Regulatory)
 
 ---
 

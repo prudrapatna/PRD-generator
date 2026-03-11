@@ -70,6 +70,7 @@ Ground every %, $, and claim in what you find. Never fabricate statistics.
 Strictly adhere to **General Wellness** boundaries unless the program explicitly states it is SaMD.
 - **PROHIBITED:** "Monitor," "Diagnose," "Detect disease," "Medical Grade," "Hypertension," "Treatment," "Condition"
 - **REQUIRED:** "Spot," "Estimate," "Patterns," "Trends," "Out of Range," "Peace of Mind," "May help support," "General Wellness"
+- **FRAMING:** Do NOT frame the problem statement or overview around a specific medical condition (e.g., "Hypertension") or claim to "detect" a condition. Frame it around the underlying physiological signal (e.g., "high blood pressure") or wellness goal.
 
 ### Engineering Rigor
 Extract constraints directly from the program's technical docs:
@@ -88,92 +89,46 @@ Extract constraints directly from the program's technical docs:
 ## Step 5A: Full PRD — Skill Chain & Output Structure
 
 **Read these skills before generating each section:**
-1. `skills/product-narrative-skill.md` — PR tone, 7-Star, Working Backwards
-2. `skills/marketing-skill.md` — 9 Things content + GTM positioning
-3. `skills/tidal-master-template-skill.md` — structure, borders, column format rules
+1. `skills/prd-standard-skill.md` — The ultimate source of truth for the Full PRD structure and formatting.
+2. `skills/product-narrative-skill.md` — PR tone, 7-Star, Working Backwards
+3. `skills/marketing-skill.md` — 9 Things content + GTM positioning
 4. `skills/cuj-generator-skill.md` — CUJ Maps
 5. `skills/acceptance-criteria-skill.md` — Gherkin AC, feature logic, NFRs
 
 **Full PRD Output Structure:**
 
-### 0. Project Metadata & Approvals
-- Deliverable, Resources, Localization, Lock Dates
-- Approval Matrix table: Role | Approver | Date | Status
-
-### 1. Press Release [PR]
-`[REQUIRED: NARRATIVE — FULL BORDER BOX]`
-Read `skills/product-narrative-skill.md` for tone. Apply `skills/tidal-master-template-skill.md` §1 for border box formatting.
-- The entire PR is enclosed in a single-cell table (1–1.5pt solid black border, all four sides)
-- Header 1: Program name; Header 2: "Google's PHA Is Learning to Spot — and May Help Reverse — [Program Name] Trends"
-- Dateline, 3 body paragraphs (invisible signal, feature intro, quiet approach), 2 quotes, closing
-
-### 2. Overview
-`[REQUIRED: NARRATIVE]` Problem definition + market urgency. Reference conjoint/UXR data with real numbers.
-
-### 3. Target Product Profile (The Master Grid)
-`[REQUIRED: TABLE]` Category | Definition — all 14 rows per `tidal-master-template-skill.md` §3.
-
-### 4. Market Positioning: The Personal Health Assistant (9 Things)
-`[REQUIRED: 2-COLUMN TABLE]` — Read `skills/marketing-skill.md` for content. Apply `tidal-master-template-skill.md` §4 for format.
-- Left column (~1.5"): Large blue number (20–24pt, bold) + tagline stacked below (11pt, bold, blue) — same cell
-- Right column (~5"): Description paragraph(s), black text
-- Horizontal border between every row; outer border on all sides. Exactly 9 rows.
-
-### 5. Critical User Journeys (CUJ Maps)
-`[REQUIRED: TABLE + NARRATIVE]` Read `skills/cuj-generator-skill.md` fully.
-- Minimum 4 CUJs: Onboarding, Reassuring Glance, Contextual Nudge, Informed Share
-- Format: Goal (The "Why") | Task (The "How") | Product CUI
-- Include Health & Metrics per cuj-generator-skill.md
-
-### 6. Algorithm Target Performance
-`[REQUIRED: TABLE]` Metric | Target (low 95% CI) | Rationale
-`[REQUIRED: TABLE]` Current Performance: Study Size | Sensitivity | Specificity | Adj. Specificity
-
-### 7. Feature Logic & Program Timeline
-`[REQUIRED: TABLE]` Constants (MIN_WEAR_HOURS, SQI_MIN, CALIBRATION_WINDOW, etc.)
-`[REQUIRED: BULLETED LIST]` Program Timeline milestones
-
-### 8. Acceptance Criteria
-`[REQUIRED: GHERKIN SPEC]` Read `skills/acceptance-criteria-skill.md` fully.
-- Feature Logic Definitions (constants + variables)
-- Functional Scenarios (Gherkin): Core Logic, State Transitions, Edge Cases, Error Handling
-- Non-Functional Requirements (performance, logging)
-
-### 9. Appendix, Disclaimers & Change Log
-- Consumer Interest: WTP + preference data from user_research/
-- US Disclaimer (narrative); EMEA Disclaimer (narrative)
-- Change Log table: Date | Section | Old Copy | New Copy
+Follow the exact 10-part structure defined in `skills/prd-standard-skill.md`:
+0. **Project Metadata & Approvals** (Lists + Table)
+1. **Press Release [PR]** (Full border box)
+2. **Overview** (Narrative)
+3. **Target Product Profile (The Master Grid)** (2-column table)
+4. **Market Positioning: The Personal Health Assistant (9 Things)** (2-column table with stacked blue headers)
+5. **Critical User Journeys (CUJ Maps)** (Table + Health & Metrics from CUJ generator)
+6. **Algorithm Target Performance** (Tables)
+7. **Feature Logic & Program Timeline** (Table + Bullets)
+8. **Acceptance Criteria** (Gherkin format + NFRs)
+9. **Appendix, Disclaimers & Change Log** (Narrative + Tables)
 
 ---
 
 ## Step 5B: Mini Product Narrative — Skill Chain & Output Structure
 
 **Read these skills before generating each section:**
-1. `skills/product-narrative-skill.md` — PR tone, 7-Star, Working Backwards
-2. `skills/marketing-skill.md` — 9 Things content + GTM positioning
-3. `skills/tidal-master-template-skill.md` — structure, borders, column format rules
-4. `skills/prd-standard-skill.md` — Mini PRD content rules
+1. `skills/product-story-skill.md` — The ultimate source of truth for the structure, format, and tone.
+2. `skills/cuj-generator-skill.md` — Use this to generate the core user journeys, but **condense** the output to fit the 3-column table required by the product story skill.
 
 **Mini PRD Output Structure:**
 
-### 1. Press Release [PR]
-Same format as Full PRD §1 — always bordered, always 7-Star quality, always first.
-
-### 2. Overview
-`[REQUIRED: NARRATIVE — 2–3 paragraphs max]`
-- Para 1: Problem + prevalence (use real data from user_research/)
-- Para 2: Solution summary — what it does and does not do
-- Para 3: Why now / why Google / why wearables
-
-### 3. Target Product Profile (The Master Grid)
-`[REQUIRED: TABLE]` Same Category | Definition table as Full PRD — all 14 rows, no empty cells.
-
-### 4. Market Positioning: The Personal Health Assistant (9 Things)
-`[REQUIRED: 2-COLUMN TABLE]` Same format as Full PRD §4. All 9 rows.
-
-### 5. Summary: What's Next
-`[REQUIRED: BULLETED LIST — 3–5 bullets]`
-Open questions, key dependencies, recommended next steps.
+Follow the exact 9-part structure defined in `skills/product-story-skill.md`:
+1. **Approval Cover Page** (Table)
+2. **The Press Release / Narrative** (Full border box)
+3. **Overview** (Narrative)
+4. **Target Product Profile (The Master Grid)** (2-column table)
+5. **Market Positioning: The Personal Health Assistant (9 Things)** (2-column table with stacked blue headers)
+6. **Critical User Journeys (CUJs)** (3-column table: Goal | Task | Product CUI)
+7. **Feature Logic Definitions & Algorithm Performance** (Tables)
+8. **Evaluation Questions for Ask Health** (Tables categorized by topic)
+9. **Appendix** (Consumer Interest, Regulatory)
 
 ---
 
