@@ -1,7 +1,7 @@
 ---
 name: visualization-generator
 description: Generates visual user journey maps and architecture diagrams using the Gemini API. Use this skill when asked to create visual representations of user flows, system architecture, or CUJ maps.
-Triggers: user journey, cuj maps, architecture diagram, system diagram, visual flow, 
+Triggers: user journey, cuj maps, architecture diagram, system diagram, visual flow, cuj map 
 ---
 
 # Visualization Generator Skill
