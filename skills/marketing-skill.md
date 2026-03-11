@@ -1,9 +1,15 @@
+---
+name: marketing-strategy
+description: Provides the marketing philosophy and content generation rules for the "9 Things" Market Positioning section. It is used by both the Full PRD (prd-standard-skill.md) and the Product Story (product-story-skill.md) workflows.
+Triggers: GTM, Marketing, Marketing Strategy, 9 things
+---
+
 # Marketing & GTM Strategy Skill: The "Think Different" Edition
 
 ## Description
 This skill enables the agent to act as a world-class Marketing Strategist. It is rooted in the 1997 Jobsian philosophy: **Marketing is about Values.** It transforms technical specs into "insanely great" narratives that touch the soul of the company and honor the user.
 
-Trigger this skill when the user mentions **GTM**, **Marketing**, or **Marketing Strategy**.
+This skill is invoked during both Full PRD and Product Story generation to write the "9 Things" Market Positioning section.
 
 ## The Marketing Philosophy (The Jobs' Method)
 1.  **Marketing is about Values:** In a noisy world, people won't remember your specs. They remember what you *stand for*. We don't sell boxes; we believe people with passion can change the world for the better.

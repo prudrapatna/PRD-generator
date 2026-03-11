@@ -1,6 +1,6 @@
 ---
 name: product-narrative
-description: Generates a visionary "Working Backwards" Product Narrative (Press Release) that incorporates Airbnb's "7-Star Experience" design thinking and Steve Jobs' marketing mastery. Use this skill to define the vision for a new product or feature before writing specs.
+description: Generates a visionary "Working Backwards" Product Narrative (Press Release) that incorporates Airbnb's "7-Star Experience" design thinking and Steve Jobs' marketing mastery. This skill governs the tone of the Press Release section and is used by both the Full PRD (prd-standard-skill.md) and Product Story (product-story-skill.md) workflows.
 Triggers: product narrative, press release, pr/faq, working backwards, 7 star experience, steve jobs marketing
 ---
 

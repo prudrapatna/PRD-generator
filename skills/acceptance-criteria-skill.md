@@ -1,6 +1,6 @@
 ---
 name: acceptance-criteria-architect
-description: Generates precise, quantifiable, and discrete Acceptance Criteria (AC) optimized for Engineering implementation and QA Test Case generation.
+description: Generates precise, quantifiable, and discrete Acceptance Criteria (AC) optimized for Engineering implementation and QA Test Case generation. This skill is EXCLUSIVELY used for Full PRD generation (prd-standard-skill.md). Do NOT use this for Mini PRDs or Product Stories.
 Triggers: acceptance criteria, AC, technical specs, functional requirements, verify feature
 ---
 
