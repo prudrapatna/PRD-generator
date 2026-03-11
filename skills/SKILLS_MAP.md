@@ -9,7 +9,7 @@ This map provides the routing logic and purpose for each agent skill.
 ```
 User Request
      │
-     ├─── "mini PRD" / "mini product overview" / "short PRD" / "product narrative" / "one-pager"
+     ├─── "mini PRD" / "mini product overview" / "short PRD" / "product narrative" / "one-pager" / "product proposal"
      │         └──► MINI PRODUCT NARRATIVE MODE
      │
      └─── "PRD" / "write a PRD" / "full PRD" / any unqualified PRD request

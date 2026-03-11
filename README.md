@@ -49,7 +49,7 @@ To unleash the full potential of the Chief of Staff agent, you **MUST** provide 
 
 This repository is powered by a set of specialized AI skills located in `/skills`:
 
-*   **`feature-spec-skill.md`:** The master orchestrator. It synthesizes all the above inputs to generate the final PRD.
+*   **`prd_orchestrator_agent.md`:** The master orchestrator. It synthesizes all the above inputs to route to the correct format and generate the final Full PRD or Mini PRD / Product Story. (Triggers: PRD, mini PRD, product proposal, product narrative, etc.)
 *   **`product-narrative-skill.md`:** Channels Steve Jobs/Brian Chesky to write a "Working Backwards" press release that sells the *dream*.
 *   **`acceptance-criteria-skill.md`:** Writes rigorous, Gherkin-style acceptance criteria (Given/When/Then) to ensure engineering feasibility.
 *   **`cuj-generator-skill.md`:** Creates detailed Critical User Journeys with priorities and requirements.
