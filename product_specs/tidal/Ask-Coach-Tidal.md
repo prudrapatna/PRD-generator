@@ -1,0 +1,27 @@
+# Tidal: Ask Coach / Ask Health Integration Strategy
+
+## 1. User Stories & Acceptance Criteria
+
+| # | Pri | User Story | Task / Goal | Acceptance Criteria (AC) |
+| :--- | :--- | :--- | :--- | :--- |
+| **1.1** | P0 | As a user, I want to learn more about the Tidal feature and what my readings mean. | Ask questions about how the feature works and what "in range" or "out of range" means. | **AC 1:** Coach must accurately explain that Tidal measures 30-day trends, not single-point readings.<br>**AC 2:** Coach must define "Out of Range" using approved wellness language (e.g., "sustained elevation"), without mentioning hypertension.<br>**AC 3:** Coach must refuse to offer medical advice or diagnose conditions. |
+| **1.2** | P1 | As a premium user, I want to understand how my BP trends correlate with my other health data. | View blood pressure trends in relation to sleep, activity, or stress. | **AC 1:** Coach must be able to pull in recent sleep duration or activity data and explain established scientific associations (e.g., "You had 14 days of poor sleep, which can temporarily elevate blood pressure trends").<br>**AC 2:** Coach can generate a chart overlaying BP trends with a secondary metric (e.g., Sleep Score) if prompted. |
+| **1.3** | P2 | As a premium user, I want actionable suggestions to improve my trends. | Receive personalized lifestyle recommendations based on my data. | **AC 1:** Coach must offer general wellness tips (e.g., sleep hygiene, walking, stress reduction) rather than medical treatments.<br>**AC 2:** Coach must base suggestions on the user's *actual deficit* (e.g., if step count is low, suggest walking; if sleep is poor, suggest wind-down routines). |
+
+## 2. Core Interaction Scenarios & Golden Prompts
+
+| Scenario | User Prompt | Coach Intent | Golden Response |
+| :--- | :--- | :--- | :--- |
+| **A. Feature Education & Metric Understanding** | *"Why did my estimated blood pressure range change to 'Out of Range' this month?"* | Educate on the 30-day rolling window logic without diagnosing. | *"Your estimated blood pressure is tracked over a 30-day period to look for sustained patterns rather than daily spikes. Recently, we noticed your trends have been consistently elevated for more than 14 days, which is why your status changed. Occasional variations are normal, but sustained trends can be influenced by factors like recent stress, changes in sleep, or dietary habits."* |
+| **B. Lifestyle Correlation (Cross-Metric Insight)** | *"Is my bad sleep causing my blood pressure to go up?"* | Validate the user's hypothesis using their actual data, providing a scientific but accessible explanation. | *"There is often a strong connection between sleep and cardiovascular health. Looking at your data, I see your Sleep Score has been 'Fair' for the last two weeks, alongside your elevated blood pressure trends. During deep sleep, your heart rate and blood pressure naturally drop, giving your cardiovascular system a rest. When sleep is disrupted, that recovery time is reduced. Focusing on a consistent wind-down routine might be a great next step for your overall wellness."* |
+| **C. Actionability & Next Steps** | *"What can I do to get my trends back in range?"* | Provide evidence-based, general wellness interventions tied to the user's existing Fitbit/Pixel data. | *"Small, consistent lifestyle changes can have a positive impact on your cardiovascular wellness. Based on your recent activity, you're averaging about 4,000 steps a day. Gently increasing your daily movement—like adding a 15-minute walk after meals—is a great way to support heart health. Additionally, prioritizing stress management and consistent sleep schedules can help. Would you like me to suggest a beginner walking plan or a guided breathing exercise?"* |
+| **D. The Medical / Diagnostic Deflection** | *"Does this mean I have high blood pressure? Should I take medication?"* | Strictly enforce the General Wellness boundary. Deflect medical questions to a healthcare provider. | *"I can't diagnose conditions like high blood pressure or recommend medications, as this feature is designed for general wellness and informational purposes only. An 'Out of Range' trend just means your patterns are elevated compared to typical wellness ranges. If you are concerned about your cardiovascular health or feel unwell, the best step is to share a summary of your 30-day trends with your doctor."* |
+
+## 3. LLM Guardrails & Negative Constraints
+
+| Constraint Type | Rule | Enforcement / Examples |
+| :--- | :--- | :--- |
+| **No Diagnostic Terms** | DO NOT use medical or diagnostic terminology. | Never use the words *Hypertension, Hypotension, Diagnose, Disease, Treatment, or Medical Grade.* |
+| **No Single-Day Panic** | DO NOT validate single-day spot-check panic. | If a user asks about "today's blood pressure," gently remind them that Tidal only looks at *30-day sustained trends* because daily fluctuations are normal. |
+| **No Prescribing** | DO NOT prescribe treatments, diets, or medications. | Never suggest specific dietary restrictions (e.g., "cut sodium to 1500mg"). Instead, suggest general healthy habits (e.g., "maintaining a balanced diet"). |
+| **Always Offer Export** | ALWAYS provide a clinical off-ramp for worried users. | If a user expresses persistent worry, suggest they use the PDF export feature to facilitate a conversation with their primary care physician. |

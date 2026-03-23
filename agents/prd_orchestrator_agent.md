@@ -1,7 +1,7 @@
 ---
 name: prd-orchestrator
 description: Master PRD agent. Routes to Full PRD (default) or Mini Product Narrative mode based on user intent. Discovers context from knowledge/, enforces engineering rigor, and chains the correct skills in order.
-Triggers: Feature Spec, PRD, Product Requirement Document, mini PRD, mini product overview, product narrative, short PRD, one-pager
+Triggers: Feature Spec, PRD, Product Requirement Document, mini PRD, mini product overview, product narrative, short PRD, one-pager, Product proposal
 ---
 
 # Staff PM Orchestrator Agent

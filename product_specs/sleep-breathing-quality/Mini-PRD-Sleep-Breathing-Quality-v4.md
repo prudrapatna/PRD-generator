@@ -198,10 +198,12 @@ Sleep Breathing Quality addresses this awareness gap by utilizing the optical (P
 
 | Goal (The "Why") | Task (The "How") | Product CUI |
 | :--- | :--- | :--- |
-| **Immediate Context:** I want to understand how my breathing impacted my sleep quality last night. | View my breathing quality rating (Optimal, Limited, etc.) and the percentage of the night that was optimal. | **Sleep Tab (Daily):** "Your breathing quality was optimal last night with 95% of your night with optimal breathing." |
-| **Pattern Recognition:** I want to see if my poor sleep is a recurring issue. | Check weekly and monthly trends of % of night with optimal breathing. | **Trend View:** Monthly roll-up showing the frequency of days with optimal breathing > 94.3%. |
-| **Contextual Nuance:** I want to learn more about what might be causing my strained breathing. | Interact with "Ask Coach" to understand what the rating means and what lifestyle factors (sleep position, alcohol) might affect it. | **Ask Coach:** Chat interface delivering contextual, non-medical advice regarding lifestyle factors. |
-| **Clinical Bridge:** I want to determine if my wellness trends require medical attention. | Receive a nudge from the Monthly Roll-up suggesting a formal assessment if patterns are persistently poor. | **Monthly Roll-up Nudge:** "You had very few nights with optimal breathing... Consider taking an apnea test to learn more." |
+| **Immediate Context:** I want to know how my breathing impacted my sleep quality the previous night. | View my breathing quality rating (Optimal, Limited, etc.) and the percentage of the night that was optimal. | **Sleep Tab (Daily):** Visualization graph of the most recent sleep session alongside heart rate and sleep stages. |
+| **Pattern Recognition:** I want to understand my Sleep Quality Breathing trends over time. | Check weekly and monthly trends of % of night with optimal breathing. | **Trend View:** Day-by-day weekly averages and week-by-week monthly averages. |
+| **Contextual Nuance (Ask Coach):** I want to interact with “ask coach” to learn more about the feature. | Ask what the feature is measuring, what the ratings mean, and why I got a specific rating. | **Ask Coach:** Chat interface delivering contextual, non-medical advice regarding lifestyle factors. |
+| **Correlated Insights (Premium):** I want to understand how my breathing quality correlates with other sleep metrics. | View breathing quality in relation to sleep stages, heart rate, and restlessness. | **Proactive Insight:** System generates an insight showing the association (e.g., sleep fragmentation and BQM). |
+| **Proactive Guidance (Premium):** I want suggestions on factors that might be impacting my breathing quality. | Receive personalized recommendations based on trends (e.g., positional changes). | **Proactive Insight:** System flags patterns over multiple sessions and suggests lifestyle adjustments. |
+| **Data Management:** I must be able to delete or takeout my data if I choose to. | Trigger data deletion or use Google Takeout. | **Settings:** Deleting sleep data automatically deletes all BQM data. Takeout exports % of time and duration optimal. |
 
 ## 7. Feature Logic Definitions & Algorithm Performance
 
@@ -216,10 +218,13 @@ Sleep Breathing Quality addresses this awareness gap by utilizing the optical (P
 
 ### Algorithm Target Performance
 
-| Metric | Target | Rationale |
+| Metric | Target | Rationale / Source |
 | :--- | :--- | :--- |
-| **Data Availability** | ≥ 99% | Percentage of nights with a valid sleep session where data is successfully generated; ensures reliability. |
-| **Coverage During Sleep** | ≥ 95% | For a valid session, the percentage of total sleep time that has BQM data (allows <5% data drops). |
+| **Data Availability** | ≥ 99% | Percentage of nights with a valid sleep session where data is successfully generated; ensures reliability. (Source: Dogfood) |
+| **Coverage During Sleep** | ≥ 95% | For a valid session, the percentage of total sleep time that has BQM data (allows <5% data drops). (Source: Dogfood) |
+| **Algorithm (BQM Estimate)** | Estimate probability (0 to 1) of a desaturation event of 4%+ SpO2 within that minute. | Validated against PSG Dataset (Ground truth: A desaturation event of 4% or greater SpO2 occurred within that minute). |
+| **Data Coverage** | 100% | Percentage of users for whom sleep stages for that night are shown must also have Sleep Quality Breathing shown. (Source: User Requirement) |
+| **Performance (Latency)** | Same as Sleep Stages and SpO2 availability | Latency for Sleep Quality Breathing calculation and display after a sleep session ends. (Source: User Requirement) |
 
 | Current Performance | Cutoff (1-BQM) | Wellness Rating |
 | :--- | :--- | :--- |

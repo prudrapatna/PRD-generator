@@ -2,7 +2,7 @@
 name: product-story-skill
 description: Generates a visionary Product Story imitating the exact structure, color, table format, and writing style of the Tidal Blood Pressure and Insulin Resistance narrative documents.
 version: 1.0.0
-triggers: product story, product narrative, tidal product story
+triggers: product story, product narrative, tidal product story, product proposal
 ---
 
 # Product Story Skill
@@ -31,7 +31,7 @@ The output MUST strictly follow this ordered structure and these exact table/for
 *   **Header 1 (Title):** Catchy, consumer-friendly title (e.g., "Helping your heart thrive: Google introduces...").
 *   **Dateline:** "[Month Day, Year]:" in bold.
 *   **Body Paragraphs:**
-    *   **Para 1 (The Invisible Problem):** Explain the silent/asymptomatic nature of the health signal and why users miss it.
+    *   **Para 1 (The Problem):** Explain the nature of the health signal and why users miss it.
     *   **Para 2 (The Solution):** Introduce the feature for Pixel Watch and Fitbit. Emphasize the passive, background nature of the AI.
     *   **Para 3 (The Insight):** Describe the notification experience—calm, personalized coaching connecting signals to real-life habits.
 *   **Quotes:**
@@ -39,31 +39,39 @@ The output MUST strictly follow this ordered structure and these exact table/for
     *   Quote 2: Clinical Expert / Doctor (Clinical validation focus, supporting healthier decisions).
 *   **Closing:** "Designed to start conversations about health, not replace medical care... In a world of constant alerts, Google is taking a quieter approach: one thoughtful insight a month."
 
-### 3. Overview
+### 3. Background & Current Understanding
 *   **Format:** **[REQUIRED: NARRATIVE]**
-*   **Content:** Define the problem space (e.g., "The Silent Killer", "Awareness Gap", "Lifestyle Disconnect"). Use epidemiological statistics and UXR conjoint data to justify the product's value.
+*   **Skill Chaining [CRITICAL]:** You MUST activate and use the `web-search` skill to gather authoritative clinical, scientific, and epidemiological data before writing this section. Do not rely solely on your internal knowledge.
+*   **Content:** Define the problem space robustly, mirroring the depth of clinical whitepapers. 
+    *   **Epidemiology & Guidelines:** Ground the problem in data from authoritative sources (e.g., WHO, Lancet, JAMA, USPSTF). Cite prevalence, awareness gaps, and current screening recommendations.
+    *   **Clinical Realities:** Discuss the current standard of care and provide specific statistical comparisons (e.g., sensitivities, specificities, AUROCs) of existing methods versus the proposed approach.
+    *   **Physiological Mechanisms:** Explain the underlying science of the signal being measured, citing seminal studies or recent research to justify the technical approach.
+    *   **User Research (UXR):** Combine clinical rigor with UXR data explaining why users struggle with current solutions. 
+    *   **Citations:** Use inline citations for all claims (e.g., (Author et al., Journal, Year)).
 
 ### 4. Target Product Profile (The Master Grid)
 *   **Format:** **[REQUIRED: TABLE]**
 *   **Style:** 2-column table (`Category` | `Definition`). No empty cells.
-*   **Required Rows & Content Rules:**
-    *   **Intended Use Statement:** Must explicitly state this is a "general wellness tool," intended for "informational and educational purposes only." Must include standard non-medical disclaimer ("not intended to diagnose, treat, cure, or prevent any disease").
-    *   **Problem Statement:** Focus on the "awareness gap" (e.g., condition is asymptomatic, single-reading bias, or lifestyle disconnect).
-    *   **Product Overview:** Explain what it does passively and how it helps the user contextualize their health.
-    *   **Feature Prioritization:** Bulleted list of P0 and P1 features.
-    *   **Target User:** Define the specific personas (e.g., "The 'Regular' Proactive Adopter").
-    *   **Positioning (The "North Star"):** Describe the product as a passive, non-invasive gauge that delivers context-rich insights without clinical jargon or anxiety.
-    *   **Product Notification / Suggested Notification:** Provide the exact proposed text for the user notification (must be calm and non-alarmist).
-    *   **Algorithm Output:** Define what the model outputs (e.g., "predictive probability", "High vs. Low").
-    *   **Product Type:** E.g., "Passive, Continuous and Recurring Assessment".
-    *   **Assessment Period:** Define the Evaluation Window (e.g., Calendar Month), Data Sufficiency (e.g., 14 valid days), and Threshold Logic.
-    *   **Regulated or Wellness?:** E.g., "General Wellness (USA)".
-    *   **Disclaimer / Contraindication:** List who this is NOT for (e.g., under 18, pregnant, prior diagnosis).
-    *   **Algorithm Inputs / Product Inputs:** The specific sensors or data required (e.g., PPG, Accelerometer, Weight).
-    *   **Supported Devices:** Specify exact hardware models.
-    *   **Country Availability:** E.g., "Global" or "50+ countries".
-    *   **Performance Target:** Specify target Sensitivity and Specificity against the ground truth standard.
-    *   **Ongoing User Input:** Note any data the user must manually update.
+*   **Required Rows:**
+    *   **Intended Use Statement:** Must strictly follow this template unless it is Software as a Medical Device (SaMD):
+        > "The [Feature Name] feature is a general wellness tool intended to estimate [metric] to promote positive lifestyle behavior changes in [lifestyle factors, e.g., sleep, activity, stress and nutrition management] by educating users and helping them understand how their daily habits correlate with estimated [metric] trends/levels. This product is not intended to diagnose, mitigate, treat, or cure any disease. This product is not a prescreener for [related disease] nor is it intended to track [clinical metric] in real time. Do not use this product for [disease] management or rely on this product to alter any medications... Consult a medical professional for any questions about your [health area] health."
+    *   Problem Statement
+    *   Product Overview
+    *   Feature Prioritization (P0/P1 lists)
+    *   Target User
+    *   **Positioning:** Must strictly follow this template:
+        > "[Feature Name] is a passive, [calibration-free/non-invasive] general wellness feature that acts as a [concept] gauge — estimating a user's [metric] over a full calendar month and delivering a single, context-rich insight — correlating patterns against [lifestyle factors] — so users understand their [health area] wellness without anxiety."
+    *   Product Notification / Suggested Notification
+    *   Algorithm Output
+    *   Product Type (e.g., Passive, Longitudinal and Recurring Assessment)
+    *   Assessment Period (Evaluation Window, Data Sufficiency, Threshold Logic)
+    *   Regulated or Wellness?
+    *   Disclaimer / Contraindication
+    *   Algorithm Inputs / Product Inputs
+    *   Supported Devices
+    *   Country Availability
+    *   Performance Target
+    *   Ongoing User Input
 
 ### 5. Market Positioning: The Personal Health Assistant (9 Things)
 *   **Format:** **[REQUIRED: 2-COLUMN TABLE]**
@@ -91,17 +99,9 @@ The output MUST strictly follow this ordered structure and these exact table/for
 *   **Current Performance Table:** `Study Size` | `Sensitivity` | `Specificity` | `Adj. Specificity`
 
 ### 8. Evaluation Questions for Ask Health
-*   **Format:** **[REQUIRED: TABLES ORGANIZED BY CATEGORY]**
-*   Create a section with tables for each of the following Query Categories: (1) Definitional, (2) Comparative, (3) Diagnostic & Guidance, (4) Medical / Safety, (5) Correlational, and (6) Trend Analysis.
-*   **Table Columns:** `User Query` | `Coach's Strategic Goal` | `Golden Answer`
-*   **Content Rules:**
-    *   **Definitional:** Focus on simple analogies (e.g., "engine idling") and explaining UI elements.
-    *   **Comparative:** Focus on contextualizing results, normalizing occasional bad nights, and maintaining a reassuring tone.
-    *   **Diagnostic & Guidance:** Acknowledge the data, check environmental/lifestyle factors (sleep position, alcohol, allergens), and offer actionable advice.
-    *   **Medical / Safety (STRICT):** **Must** include a hard stop for diagnosis. Validate the user's concern but immediately defer to a doctor/healthcare professional (e.g., "While I can show you patterns... I cannot provide a medical diagnosis").
-    *   **Correlational:** Connect the dots between the feature's data and other metrics (like Sleep Score or Restlessness).
-    *   **Trend Analysis:** Summarize patterns rather than just listing data, and include a safety check/trigger if trends are persistently severe.
+*   **Format:** **[REQUIRED: LISTS]**
+*   Categorized lists of user queries the AI coach must be able to handle (e.g., A. Understanding trends, B. Longitudinal thinking, C. Lifestyle linkage curiosity).
 
 ### 9. Appendix
 *   **Format:** **[REQUIRED: NARRATIVE/BULLETED]**
-*   Include Consumer Interest (WTP data, conjoint insights), US Regulatory (FDA), and EU Regulatory (MDR) assessments.
+*   Include Consumer Interest (WTP data, conjoint insights), US Regulatory (FDA), and EU Regulatory (MDR) assessments.nts.clude Consumer Interest (WTP data, conjoint insights), US Regulatory (FDA), and EU Regulatory (MDR) assessments.egulatory (FDA), and EU Regulatory (MDR) assessments.nts.clude Consumer Interest (WTP data, conjoint insights), US Regulatory (FDA), and EU Regulatory (MDR) assessments.
